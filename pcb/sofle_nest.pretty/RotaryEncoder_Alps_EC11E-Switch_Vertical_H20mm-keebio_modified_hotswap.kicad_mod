@@ -490,6 +490,28 @@
 		(uuid "facc432c-42da-4996-a4b7-f49bbb7a45ce")
 	)
 	(fp_rect
+		(start 2.15 -7.5)
+		(end -2.15 -8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.3")
+		(uuid "4836ae2b-9e85-4e3c-bb22-ff0c5564a8c5")
+	)
+	(fp_rect
+		(start 2.15 6.5)
+		(end -2.15 5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.3")
+		(uuid "be625167-eee1-4f00-a419-111dfbbe82dc")
+	)
+	(fp_rect
 		(start -7.7874 5.9944)
 		(end 7.7874 -8.0056)
 		(stroke
@@ -1011,6 +1033,10 @@
 			"cfae360a-0ccb-4236-b7f9-5a7e6b6d6698" "d95a5d25-0ee0-40a6-8da1-9f209b6bea2f"
 			"e26b4591-7edc-46d8-a736-25104926ed62" "f4998b37-8e78-4adb-95c0-5bdca8895c41"
 		)
+	)
+	(group ""
+		(uuid "31769f07-603e-4f02-a01c-563f0b5a51fc")
+		(members "4836ae2b-9e85-4e3c-bb22-ff0c5564a8c5" "be625167-eee1-4f00-a419-111dfbbe82dc")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/sofle_nest.3dshapes/EC11_Rotary_Encoder_Switched.step"

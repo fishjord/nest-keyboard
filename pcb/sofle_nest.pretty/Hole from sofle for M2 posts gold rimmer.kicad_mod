@@ -107,17 +107,6 @@
 			(type default)
 		)
 		(fill no)
-		(layer "User.6")
-		(uuid "d0e5bad0-6529-47b8-baab-da736570e3cf")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 2.2 0)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
 		(layer "User.9")
 		(uuid "a2595920-bcb0-423f-b8ee-854bc42fe759")
 	)

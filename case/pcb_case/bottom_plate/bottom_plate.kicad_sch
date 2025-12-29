@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ab16b09b-60aa-47e9-bfaf-44cca1aec486")
+	(paper "A4")
+	(title_block
+		(title "Sofle Nest PCB Bottom Plate")
+		(date "2025-12-28")
+		(rev "v0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -7,3 +7,4 @@ _autosave*
 *.lck
 ~*
 fp-info-cache
+gerbers/

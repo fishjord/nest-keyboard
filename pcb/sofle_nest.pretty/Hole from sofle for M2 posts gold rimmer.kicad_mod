@@ -1,0 +1,145 @@
+(footprint "Hole from sofle for M2 posts gold rimmer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "TH6"
+		(at 0 3.556 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7e1c12f7-b373-4792-891f-cd0f91865f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HOLE"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce34de8a-7bef-401a-97f3-15e2083decd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9afbdf63-35b1-4ad3-8977-147907f426ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "058116c1-e787-4440-81e1-00c19ad59d2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_PN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9520c0d-ba61-4701-85ec-fe87c6a951b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.3")
+		(uuid "59b3d817-0807-446c-bd0d-06f574a16b94")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "e4934565-f106-4dd2-905c-7b4d17a868e9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "985096b1-251a-4d38-917d-d79903490aa2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.6")
+		(uuid "d0e5bad0-6529-47b8-baab-da736570e3cf")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.9")
+		(uuid "a2595920-bcb0-423f-b8ee-854bc42fe759")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "User.10")
+		(uuid "59c3f5b2-0300-4a54-ad98-bbac34e595ed")
+	)
+	(pad "" thru_hole circle
+		(at 0 0 90)
+		(size 4.7 4.7)
+		(drill 4.1)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(remove_unused_layers no)
+		(clearance 0.3)
+		(uuid "3128a9d3-a2e1-4e1e-becb-02305869ff84")
+	)
+	(embedded_fonts no)
+)

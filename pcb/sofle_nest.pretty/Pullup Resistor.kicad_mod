@@ -1,0 +1,232 @@
+(footprint "Pullup Resistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b2e86a24-dce7-4526-9a38-41d03cba3fdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pullup Resistor"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "413fd017-3a63-46e1-8d3f-adb5420b515b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "052fb344-60db-446f-a06f-03d013db6c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc5f876a-8c77-4476-b48d-57bd566d6dc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.122 -0.762)
+		(end 1.942 -0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd4c9727-8068-4e01-af2d-72259ae371e3")
+	)
+	(fp_line
+		(start 1.942 0.762)
+		(end -2.122 0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ed8796a-61db-4ec0-a308-907cb9928ecd")
+	)
+	(fp_line
+		(start -2.122 -0.762)
+		(end 1.942 -0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "b1e754a9-5448-4abb-b45c-f9c4e6d635a6")
+	)
+	(fp_line
+		(start 1.942 0.762)
+		(end -2.122 0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "24cca7c3-89c2-4ab5-a33f-19f7043a4eb7")
+	)
+	(fp_line
+		(start -4.925098 -0.8636)
+		(end 4.721898 -0.8636)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "9ffa6f7c-65fa-47cd-bcf7-2eb8b6034875")
+	)
+	(fp_line
+		(start -4.925098 0.8636)
+		(end -4.925098 -0.8636)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "f30931bb-7369-4208-8b93-10192c2aac4d")
+	)
+	(fp_line
+		(start 4.721841 -0.8304)
+		(end 4.721841 0.8636)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "f3c9f5cc-54a7-42b9-b8a3-9ba4d226f071")
+	)
+	(fp_line
+		(start 4.721841 0.8636)
+		(end -4.925098 0.8636)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.9")
+		(uuid "2e07db50-13b7-4b08-853b-ebf6233f6575")
+	)
+	(fp_line
+		(start -4.925098 -0.8636)
+		(end 4.721898 -0.8636)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.10")
+		(uuid "c6f7ceb1-7a9e-4872-9596-a80eec3174e6")
+	)
+	(fp_line
+		(start -4.925098 0.8636)
+		(end -4.925098 -0.8636)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.10")
+		(uuid "7c0c9b13-e502-49e8-95d7-8eeeb03085b2")
+	)
+	(fp_line
+		(start 4.721841 -0.8304)
+		(end 4.721841 0.8636)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.10")
+		(uuid "9f97ced1-b4f2-404d-b7bc-8cfa73b27e9f")
+	)
+	(fp_line
+		(start 4.721841 0.8636)
+		(end -4.925098 0.8636)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "User.10")
+		(uuid "d85bdbb6-b184-4c03-96fa-b424067a8830")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "284da793-f483-4239-aef7-b994283e6e28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "dc4ccc48-219e-4a09-bef5-29795196a53e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 3.81 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f3535316-5979-46e1-9b06-0698467cb5ef")
+	)
+	(pad "2" thru_hole circle
+		(at -3.99 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71b6affb-adf9-4de5-9728-69adce600c31")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -922,7 +922,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../gerbers/",
+      "plot": "../gerbers/sofle_nest/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Case/3D Print/Sofle_Chico_PCB.step",

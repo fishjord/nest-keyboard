@@ -220,13 +220,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -3.9 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1.5 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

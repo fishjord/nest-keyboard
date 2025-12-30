@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8b1982fd-4b64-4b7c-8b66-e60be464d244")
+	(paper "E")
+	(title_block
+		(title "Sofle Nest PCB Keyplate")
+		(date "2025-12-28")
+		(rev "v0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

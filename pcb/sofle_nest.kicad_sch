@@ -765,154 +765,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sofle_Nest:DropLight_SK6803MINIE_V2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.2954 1.2954)
-					)
-				)
-			)
-			(property "Value" "SK6803 MINI-E"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 0.4064 0.4064)
-					)
-				)
-			)
-			(property "Footprint" "Sofle_Nest:DropLight_SK6803_MINI-E_v3.5.5"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -3.1226 0.9522 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_PN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DropLight_SK6803MINIE_V2_1_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -5.08 2.54 0)
-					(length 1.27)
-					(hide yes)
-					(name "VDD"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -5.08 -2.54 0)
-					(length 1.27)
-					(name "DOUT"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 2.54 180)
-					(length 1.27)
-					(name "DIN"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -2.54 180)
-					(length 1.27)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Sofle_Nest:FFC2B35-12-G_REVA2"
 			(pin_names
 				(offset 1.016)
@@ -2192,6 +2044,154 @@
 				)
 			)
 			(symbol "SK6803MINIE_V2_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -5.08 2.54 0)
+					(length 1.27)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -2.54 0)
+					(length 1.27)
+					(name "DOUT"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 2.54 180)
+					(length 1.27)
+					(name "DIN"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 -2.54 180)
+					(length 1.27)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sofle_Nest:SK6803MINIE_V2_Underglow"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.2954 1.2954)
+					)
+				)
+			)
+			(property "Value" "SK6803 MINI-E"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 0.4064 0.4064)
+					)
+				)
+			)
+			(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.1226 0.9522 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6803MINIE_V2_Underglow_1_1"
 				(rectangle
 					(start -3.81 3.81)
 					(end 3.81 -3.81)
@@ -4023,6 +4023,12 @@
 		(uuid "26a4cd58-f864-4051-b728-9d09c0b7ecd4")
 	)
 	(junction
+		(at 215.9 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba698bc-e9fd-467a-b444-352abc977ad9")
+	)
+	(junction
 		(at 30.48 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4257,6 +4263,12 @@
 		(uuid "a78f0b53-17bd-4b87-99b3-09934b0d493a")
 	)
 	(junction
+		(at 243.84 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8f4f4a9-2935-402a-ae93-3da954edd1ba")
+	)
+	(junction
 		(at 50.8 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4317,12 +4329,6 @@
 		(uuid "d1ddf1cc-2cd8-4999-aa91-d5e4136981d5")
 	)
 	(junction
-		(at 187.96 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d39ed161-30d5-4a38-99b2-203c70c04401")
-	)
-	(junction
 		(at 111.76 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4333,6 +4339,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd85fe8b-f4de-4f06-b8ec-3e6f3fca0f3d")
+	)
+	(junction
+		(at 187.96 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de6113af-16a2-4113-9e9a-8ca8f145e690")
 	)
 	(junction
 		(at 91.44 144.78)
@@ -4363,12 +4375,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7debccd-184e-4246-a95d-9a7d0c1baeb2")
-	)
-	(junction
-		(at 187.96 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fab6cb3e-e29d-4820-8ded-36988f0c678a")
 	)
 	(junction
 		(at 30.48 128.27)
@@ -4413,6 +4419,16 @@
 			(type default)
 		)
 		(uuid "04dcf994-9f74-489d-984f-76a371f94180")
+	)
+	(wire
+		(pts
+			(xy 214.63 45.72) (xy 214.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c73dce-b7bf-4a1c-b8ba-6890d8915309")
 	)
 	(wire
 		(pts
@@ -4506,6 +4522,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 31.75) (xy 248.92 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a0edb5-0e97-47e5-ae45-13e3e25d2497")
+	)
+	(wire
+		(pts
 			(xy 242.57 57.15) (xy 242.57 60.96)
 		)
 		(stroke
@@ -4566,6 +4592,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 40.64) (xy 243.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da96ac4-83a1-4150-9cdc-a10732d14eea")
+	)
+	(wire
+		(pts
 			(xy 231.14 60.96) (xy 231.14 63.5)
 		)
 		(stroke
@@ -4573,6 +4609,16 @@
 			(type default)
 		)
 		(uuid "1f8088ce-cc66-4885-adb3-28c917840f54")
+	)
+	(wire
+		(pts
+			(xy 259.08 40.64) (xy 259.08 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a42431-ca2b-4fe1-84d2-ab9cdebe5fa9")
 	)
 	(wire
 		(pts
@@ -4686,23 +4732,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 94.615) (xy 172.72 90.17)
+			(xy 172.72 95.25) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a1a3b83-6c01-43a5-9b29-c2fa9d7ef9f0")
-	)
-	(wire
-		(pts
-			(xy 187.96 27.94) (xy 187.96 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a57254d-60a5-4d6a-a9c8-0cce4e95f901")
 	)
 	(wire
 		(pts
@@ -4733,36 +4769,6 @@
 			(type default)
 		)
 		(uuid "2ef15eba-865d-43c2-bd07-90029d1843cc")
-	)
-	(wire
-		(pts
-			(xy 204.47 95.25) (xy 204.47 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fb44e52-29d2-4e93-b141-44e49342b90d")
-	)
-	(wire
-		(pts
-			(xy 175.26 95.25) (xy 175.26 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "342c1431-3073-4dea-81d0-b1173ac157f9")
-	)
-	(wire
-		(pts
-			(xy 220.98 34.29) (xy 204.47 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3442f701-c1fa-46a4-8592-69a1c90d5a83")
 	)
 	(wire
 		(pts
@@ -4813,16 +4819,6 @@
 			(type default)
 		)
 		(uuid "3ac4e0be-4f46-47ad-8831-cc56ca6de499")
-	)
-	(wire
-		(pts
-			(xy 215.9 40.64) (xy 215.9 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bead002-121d-47cb-87e8-e09e281d1ed2")
 	)
 	(wire
 		(pts
@@ -4886,16 +4882,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 90.17) (xy 190.5 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4165faca-1465-44c3-92e9-fa87708a833a")
-	)
-	(wire
-		(pts
 			(xy 86.36 152.4) (xy 106.68 152.4)
 		)
 		(stroke
@@ -4953,16 +4939,6 @@
 			(type default)
 		)
 		(uuid "47ad4c41-7882-4dff-ae2b-9370ad7543ba")
-	)
-	(wire
-		(pts
-			(xy 185.42 36.83) (xy 175.26 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c37478-37a7-48d5-96e1-e452297d918f")
 	)
 	(wire
 		(pts
@@ -5056,6 +5032,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 40.64) (xy 215.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed9fbb7-9089-4a6f-b999-9b5d0205dace")
+	)
+	(wire
+		(pts
 			(xy 71.12 95.25) (xy 71.12 111.76)
 		)
 		(stroke
@@ -5066,13 +5052,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 25.4) (xy 240.03 25.4)
+			(xy 210.82 26.67) (xy 201.93 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f0fa6e5-af74-4a9a-8d89-0d7eeba9c214")
+		(uuid "4ff70145-70c0-439e-8f86-1af06e4058ea")
 	)
 	(wire
 		(pts
@@ -5196,6 +5182,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 31.75) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baf7589-ef9d-47cd-bfef-138a2bf3d041")
+	)
+	(wire
+		(pts
 			(xy 91.44 144.78) (xy 91.44 161.29)
 		)
 		(stroke
@@ -5266,16 +5262,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 36.83) (xy 200.66 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64e0d2f6-0c19-4f1b-ba78-6f7c5193d49c")
-	)
-	(wire
-		(pts
 			(xy 248.92 87.63) (xy 248.92 83.82)
 		)
 		(stroke
@@ -5316,6 +5302,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 49.53) (xy 232.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b735dce-6af9-4f4f-b21b-79493348676e")
+	)
+	(wire
+		(pts
 			(xy 190.5 71.12) (xy 190.5 68.58)
 		)
 		(stroke
@@ -5323,6 +5319,16 @@
 			(type default)
 		)
 		(uuid "6e2af417-37ff-4ac6-953b-1f79167c9f92")
+	)
+	(wire
+		(pts
+			(xy 228.6 26.67) (xy 228.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e59ce88-4336-451a-ba75-7589c9c591fc")
 	)
 	(wire
 		(pts
@@ -5346,16 +5352,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 30.48) (xy 220.98 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1be662-1b3f-4842-86a0-b7c853b0766e")
-	)
-	(wire
-		(pts
 			(xy 214.63 97.79) (xy 208.28 97.79)
 		)
 		(stroke
@@ -5376,13 +5372,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 30.48) (xy 193.04 36.83)
+			(xy 200.66 40.64) (xy 204.47 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "751a3bb2-8633-4b8e-9b1d-9eac5f153cd2")
+		(uuid "744e9bd6-8330-4037-a084-848adf0f5ac6")
+	)
+	(wire
+		(pts
+			(xy 243.84 40.64) (xy 243.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74eb6fcc-27ac-44c5-9bf6-5b352458cfa4")
 	)
 	(wire
 		(pts
@@ -5393,16 +5399,6 @@
 			(type default)
 		)
 		(uuid "75b28688-9519-4963-a4de-1bd29b86b2ed")
-	)
-	(wire
-		(pts
-			(xy 228.6 40.64) (xy 228.6 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75e9fc0d-138e-4f68-9eb6-aa7a1ccfff7f")
 	)
 	(wire
 		(pts
@@ -5443,16 +5439,6 @@
 			(type default)
 		)
 		(uuid "780396b1-cb48-476d-8b2d-c89b11ab60eb")
-	)
-	(wire
-		(pts
-			(xy 250.19 34.29) (xy 232.41 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "787b7d19-4091-4c8d-9df8-2a81b6c2ce0d")
 	)
 	(wire
 		(pts
@@ -5526,7 +5512,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 89.535) (xy 170.18 86.36)
+			(xy 170.18 90.17) (xy 170.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5586,6 +5572,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 26.67) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83e53bc6-a871-4fd3-952e-77d0cd7ecd6f")
+	)
+	(wire
+		(pts
 			(xy 111.76 144.78) (xy 111.76 161.29)
 		)
 		(stroke
@@ -5613,16 +5609,6 @@
 			(type default)
 		)
 		(uuid "87b5c5ac-c35f-48d0-bf98-bf5fe84ecfb0")
-	)
-	(wire
-		(pts
-			(xy 185.42 33.02) (xy 185.42 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87ddd908-7f6f-4498-9c8a-5c1f6092a14a")
 	)
 	(wire
 		(pts
@@ -5676,16 +5662,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 27.94) (xy 187.96 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7bf9d7-6573-44af-91a4-abcf6575f1f1")
-	)
-	(wire
-		(pts
 			(xy 127 119.38) (xy 147.32 119.38)
 		)
 		(stroke
@@ -5736,16 +5712,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 25.4) (xy 210.82 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e1c06a-689a-41cd-9193-7fda3de4180a")
-	)
-	(wire
-		(pts
 			(xy 214.63 95.25) (xy 214.63 97.79)
 		)
 		(stroke
@@ -5783,26 +5749,6 @@
 			(type default)
 		)
 		(uuid "a01d0847-1c42-4c1b-a896-3f81574f2d8a")
-	)
-	(wire
-		(pts
-			(xy 187.96 25.4) (xy 187.96 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08be268-164c-4902-ad1d-16edebacd12d")
-	)
-	(wire
-		(pts
-			(xy 232.41 34.29) (xy 232.41 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d9dbe8-c3ba-4718-a6f1-10b58d630c2a")
 	)
 	(wire
 		(pts
@@ -5906,13 +5852,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 34.29) (xy 204.47 52.07)
+			(xy 214.63 49.53) (xy 204.47 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aee4d59d-c4c1-4a76-bfc2-e22b02983e8e")
+		(uuid "adb62cdc-0752-48fc-b45d-1244dd9b2eaa")
 	)
 	(wire
 		(pts
@@ -5966,26 +5912,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 34.29) (xy 226.06 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b105be5b-1b3d-4ff0-bcbc-e414b257d363")
-	)
-	(wire
-		(pts
-			(xy 228.6 34.29) (xy 226.06 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2070118-2203-4122-82ad-8f5acb7c86d5")
-	)
-	(wire
-		(pts
 			(xy 228.6 90.17) (xy 228.6 83.82)
 		)
 		(stroke
@@ -5993,16 +5919,6 @@
 			(type default)
 		)
 		(uuid "b236f8e4-342f-46c6-80ed-b8114fce3558")
-	)
-	(wire
-		(pts
-			(xy 243.84 40.64) (xy 243.84 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d13d04-9d12-4799-852f-5b1ee5b9eb25")
 	)
 	(wire
 		(pts
@@ -6066,16 +5982,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 218.44 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9a9f10-7b6c-4764-b418-9920e82c4a8b")
-	)
-	(wire
-		(pts
 			(xy 39.37 72.39) (xy 30.48 72.39)
 		)
 		(stroke
@@ -6086,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 94.615) (xy 172.72 94.615)
+			(xy 170.18 95.25) (xy 172.72 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6113,6 +6019,16 @@
 			(type default)
 		)
 		(uuid "c0f30fcf-c764-4a12-bf40-c86aafbf7ccc")
+	)
+	(wire
+		(pts
+			(xy 242.57 45.72) (xy 242.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f3cd29-8d81-413f-8d25-87827d71ace6")
 	)
 	(wire
 		(pts
@@ -6156,16 +6072,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 36.83) (xy 200.66 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4ec0711-dc37-4052-be7b-41ddf173658a")
-	)
-	(wire
-		(pts
 			(xy 246.38 71.12) (xy 246.38 68.58)
 		)
 		(stroke
@@ -6203,16 +6109,6 @@
 			(type default)
 		)
 		(uuid "c9d7dd83-00e1-43a8-9b68-b8b533ceed51")
-	)
-	(wire
-		(pts
-			(xy 175.26 36.83) (xy 175.26 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca057993-240d-4fac-96a6-23508245e105")
 	)
 	(wire
 		(pts
@@ -6396,13 +6292,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 83.82) (xy 160.02 89.535)
+			(xy 160.02 83.82) (xy 160.02 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d650c83d-9ed8-4d3d-8d1e-f822103d2a39")
+	)
+	(wire
+		(pts
+			(xy 242.57 49.53) (xy 232.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6568914-7bd9-4401-9401-cc1ef21c57b5")
 	)
 	(wire
 		(pts
@@ -6536,6 +6442,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 26.67) (xy 228.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31598ce-1960-420f-9c23-faeea38ad3c6")
+	)
+	(wire
+		(pts
 			(xy 27.94 168.91) (xy 45.72 168.91)
 		)
 		(stroke
@@ -6626,6 +6542,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 49.53) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd6f4ed-7f5b-4fa0-b79e-c62827ed677b")
+	)
+	(wire
+		(pts
 			(xy 190.5 97.79) (xy 193.04 97.79)
 		)
 		(stroke
@@ -6636,13 +6562,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 30.48) (xy 250.19 34.29)
+			(xy 215.9 40.64) (xy 215.9 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1ce4679-0703-4353-9eb7-040cb28a6804")
+		(uuid "f2b58d25-5178-4317-b009-76c2d0435ab4")
 	)
 	(wire
 		(pts
@@ -6726,13 +6652,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 30.48) (xy 205.74 30.48)
+			(xy 228.6 31.75) (xy 220.98 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f978f292-aea5-4438-a9e0-e18b3da756a8")
+		(uuid "f9a02853-a678-4f86-9bbe-372a96b0f759")
 	)
 	(wire
 		(pts
@@ -6743,6 +6669,16 @@
 			(type default)
 		)
 		(uuid "faaf1cfc-1f81-44c4-8d23-65a3a4b43bee")
+	)
+	(wire
+		(pts
+			(xy 228.6 40.64) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb806528-b802-4b9b-b692-feb74ef02007")
 	)
 	(wire
 		(pts
@@ -6783,26 +6719,6 @@
 			(type default)
 		)
 		(uuid "fff6a8cc-ea48-4763-9ffd-b875ce7793ce")
-	)
-	(global_label "row0"
-		(shape input)
-		(at 53.34 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "00134b8f-465f-40ed-bb77-47b7f89068da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "SDA"
 		(shape input)
@@ -7072,6 +6988,26 @@
 			)
 		)
 	)
+	(global_label "row0"
+		(shape input)
+		(at 53.34 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44f202f9-82bc-4f78-99b3-f26781b636f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENCB"
 		(shape input)
 		(at 175.26 156.21 180)
@@ -7292,28 +7228,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED"
-		(shape input)
-		(at 175.26 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c376c8e-9345-47b9-ba81-8b03cf672d57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.9071 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7544,6 +7458,27 @@
 			)
 		)
 	)
+	(global_label "col5"
+		(shape input)
+		(at 53.34 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa2184ed-1c4c-4315-ad1b-6327308868b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col1"
 		(shape input)
 		(at 53.34 40.64 0)
@@ -7560,6 +7495,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED"
+		(shape input)
+		(at 175.26 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ade5c4d8-1b73-40bb-90e7-0e46d1aee6cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.4819 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7868,27 +7825,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "col5"
-		(shape input)
-		(at 53.34 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f1da0c44-0d1f-4dde-9a9c-1bc6e0e0c5cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13490,7 +13426,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 195.58 92.71 180)
+		(at 195.58 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13498,7 +13434,7 @@
 		(dnp no)
 		(uuid "0c7e4522-f40d-4a27-ba6f-2538bba1bd5f")
 		(property "Reference" "LED9"
-			(at 195.58 92.71 0)
+			(at 195.58 77.47 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -13506,7 +13442,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 195.58 97.79 0)
+			(at 195.58 72.39 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -13514,7 +13450,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 195.58 99.06 0)
+			(at 195.58 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13523,7 +13459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.7026 93.6622 0)
+			(at 198.7026 78.4222 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13532,7 +13468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 92.71 0)
+			(at 195.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,7 +13477,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 195.58 92.71 0)
+			(at 195.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13648,6 +13584,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1111c526-a8e2-47ff-94b8-d57485e73aff")
 		(property "Reference" "#PWR015"
 			(at 238.76 93.98 0)
@@ -13707,8 +13644,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:DropLight_SK6803MINIE_V2")
-		(at 243.84 90.17 180)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(at 251.46 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13716,7 +13653,7 @@
 		(dnp no)
 		(uuid "116d602e-6c45-4e8e-9e26-b744b2d82d2e")
 		(property "Reference" "LED31"
-			(at 243.84 90.17 0)
+			(at 251.46 54.61 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -13724,15 +13661,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 243.84 95.25 0)
+			(at 251.46 49.53 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:DropLight_SK6803_MINI-E_v3.5.5"
-			(at 243.84 96.52 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13741,7 +13678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.9626 91.1222 0)
+			(at 254.5826 55.5622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13750,7 +13687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 90.17 0)
+			(at 251.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +13696,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 243.84 90.17 0)
+			(at 251.46 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,6 +13733,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "12214c47-4d4c-4e01-a77e-05cd985a4739")
 		(property "Reference" "#PWR0122"
 			(at 190.5 69.85 0)
@@ -13856,12 +13794,80 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 232.41 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "148b32d6-7c13-4d23-aab0-c3de43b10231")
+		(property "Reference" "#PWR013"
+			(at 232.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7827487e-d517-4be6-8d7d-a8bb72bf8bfa")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 175.26 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "15f59aba-c6c0-45bc-8e58-466c89a99e96")
 		(property "Reference" "#PWR0106"
 			(at 175.26 63.5 0)
@@ -13922,15 +13928,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 94.615 0)
+		(at 204.47 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "17cfb770-b680-4a22-b477-0000618e04fc")
 		(property "Reference" "#PWR0101"
-			(at 204.47 100.965 0)
+			(at 204.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13939,7 +13946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.47 98.425 0)
+			(at 204.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13948,7 +13955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 94.615 0)
+			(at 204.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13957,7 +13964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 94.615 0)
+			(at 204.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +13973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 94.615 0)
+			(at 204.47 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,9 +14285,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 182.88 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f5a1a3a-2e5d-4ddd-b218-b22b7794f7b7")
+		(property "Reference" "#PWR024"
+			(at 182.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 180.34 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f8abfeb-3f66-4873-83af-ea91a401b014")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 209.55 92.71 0)
-		(mirror y)
+		(at 223.52 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14288,7 +14361,7 @@
 		(dnp no)
 		(uuid "201a53a4-7e7b-4d52-8c96-8601662dd8ac")
 		(property "Reference" "LED19"
-			(at 209.55 92.71 0)
+			(at 223.774 92.71 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -14296,7 +14369,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 209.55 87.63 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -14304,7 +14377,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 209.55 86.36 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14313,7 +14386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.6726 91.7578 0)
+			(at 226.6426 93.6622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14322,7 +14395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 92.71 0)
+			(at 223.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,7 +14404,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 209.55 92.71 0)
+			(at 223.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,6 +14441,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "21a8dfe9-82c1-460a-84e8-9d73e2e66d92")
 		(property "Reference" "#PWR0133"
 			(at 232.41 86.36 0)
@@ -14509,6 +14583,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "22d0e0b6-aeda-4816-bfec-88d4d07fbbd9")
 		(property "Reference" "#PWR0129"
 			(at 218.44 81.28 0)
@@ -14569,7 +14644,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 180.34 54.61 0)
+		(at 180.34 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14578,7 +14653,7 @@
 		(dnp no)
 		(uuid "25c7c98b-ec74-4597-83b8-f359fe746fc4")
 		(property "Reference" "LED3"
-			(at 180.34 54.61 0)
+			(at 180.34 66.04 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -14586,7 +14661,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 180.34 49.53 0)
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -14594,7 +14669,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 180.34 48.26 0)
+			(at 180.34 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14603,7 +14678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 183.4626 53.6578 0)
+			(at 183.4626 65.0878 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -14612,7 +14687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 54.61 0)
+			(at 180.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14621,7 +14696,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 180.34 54.61 0)
+			(at 180.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14658,6 +14733,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "274b1663-99d9-4fb3-b60b-fe075095f528")
 		(property "Reference" "#PWR0114"
 			(at 215.9 44.45 0)
@@ -14669,7 +14745,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 215.9 36.83 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14783,78 +14859,13 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ad01af9-74f5-447c-bde0-741b97e3a73f")
-		(property "Reference" "#PWR011"
-			(at 193.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad9e1695-25ad-43f8-9803-02a7b939a242")
-		)
-		(instances
-			(project "sofle_nest"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 246.38 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "30a206eb-6b6b-4cbb-a693-7e6c8c544c53")
 		(property "Reference" "#PWR0138"
 			(at 246.38 46.99 0)
@@ -14921,6 +14932,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "32c7a02c-ec3a-45d9-8b90-616bc722b4c9")
 		(property "Reference" "#PWR016"
 			(at 210.82 111.76 0)
@@ -14987,6 +14999,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "36965466-1ec0-49f0-8370-8a60db091eb9")
 		(property "Reference" "#PWR0128"
 			(at 204.47 74.93 0)
@@ -15053,6 +15066,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "375bf128-abc6-4f8c-bc45-562953975091")
 		(property "Reference" "#PWR0135"
 			(at 246.38 82.55 0)
@@ -15188,8 +15202,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 237.49 77.47 0)
-		(mirror y)
+		(at 251.46 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15197,7 +15210,7 @@
 		(dnp no)
 		(uuid "3f03d596-158a-4fa6-a0c4-cdf9db9fa6e7")
 		(property "Reference" "LED30"
-			(at 237.49 77.47 0)
+			(at 251.714 66.294 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15205,7 +15218,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 237.49 72.39 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -15213,7 +15226,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 237.49 71.12 0)
+			(at 251.46 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15222,7 +15235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.6126 76.5178 0)
+			(at 254.5826 66.9922 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15231,7 +15244,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 77.47 0)
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15240,7 +15253,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 237.49 77.47 0)
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15270,8 +15283,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 251.46 54.61 180)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(at 215.9 29.21 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15279,7 +15293,7 @@
 		(dnp no)
 		(uuid "3ff7822c-dc7c-42e8-9616-705fbaacba62")
 		(property "Reference" "LED34"
-			(at 251.46 54.61 0)
+			(at 216.154 29.21 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15287,15 +15301,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 251.46 59.69 0)
+			(at 215.9 24.13 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 251.46 60.96 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15304,7 +15318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254.5826 55.5622 0)
+			(at 212.7774 30.1622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15313,7 +15327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 54.61 0)
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,7 +15336,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 251.46 54.61 0)
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15352,8 +15366,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 248.92 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40fa04ec-f749-4abe-baa6-5d891b6d657d")
+		(property "Reference" "#PWR025"
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e627dbf-24b1-455c-b19a-34acca291bbc")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 209.55 66.04 0)
+		(at 209.55 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15362,7 +15443,7 @@
 		(dnp no)
 		(uuid "441d8af1-3d7e-4a61-8ec9-ba59db74eb21")
 		(property "Reference" "LED17"
-			(at 209.55 66.04 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15370,7 +15451,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 209.55 60.96 0)
+			(at 209.55 87.63 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -15378,7 +15459,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 209.55 59.69 0)
+			(at 209.55 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15387,7 +15468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.6726 65.0878 0)
+			(at 212.6726 91.7578 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15396,7 +15477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 66.04 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15405,7 +15486,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 209.55 66.04 0)
+			(at 209.55 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15436,7 +15517,8 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 195.58 43.18 180)
+		(at 209.55 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15444,7 +15526,7 @@
 		(dnp no)
 		(uuid "47e53d6c-e9b9-4c81-9e16-02f940041c1a")
 		(property "Reference" "LED13"
-			(at 195.58 43.18 0)
+			(at 209.55 43.18 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15452,7 +15534,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 195.58 48.26 0)
+			(at 209.55 38.1 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -15460,7 +15542,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 195.58 49.53 0)
+			(at 209.55 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15469,7 +15551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.7026 44.1322 0)
+			(at 212.6726 42.2278 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15478,7 +15560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 43.18 0)
+			(at 209.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15487,7 +15569,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 195.58 43.18 0)
+			(at 209.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15524,6 +15606,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4b6b46c8-04e0-4e55-ab48-c0489f37716f")
 		(property "Reference" "#PWR0136"
 			(at 246.38 58.42 0)
@@ -15584,7 +15667,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 251.46 78.74 180)
+		(at 251.46 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15592,7 +15675,7 @@
 		(dnp no)
 		(uuid "4d35fe0e-7d72-4302-a0f9-349385da5f59")
 		(property "Reference" "LED32"
-			(at 251.46 78.74 0)
+			(at 251.46 43.18 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15600,7 +15683,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 251.46 83.82 0)
+			(at 251.46 38.1 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -15608,7 +15691,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 251.46 85.09 0)
+			(at 251.46 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15617,7 +15700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254.5826 79.6922 0)
+			(at 254.5826 44.1322 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15626,7 +15709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 78.74 0)
+			(at 251.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15635,7 +15718,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 251.46 78.74 0)
+			(at 251.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,73 +15814,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 187.96 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f9f7c8e-7517-4f2d-9499-2f8ce76a8e30")
-		(property "Reference" "#PWR0121"
-			(at 187.96 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 187.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 187.96 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b52e707-4741-4811-bc08-78b0ba09dd87")
-		)
-		(instances
-			(project "Sofle_Pico"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 223.52 54.61 180)
+		(at 237.49 43.18 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15805,7 +15824,7 @@
 		(dnp no)
 		(uuid "521f288f-db4d-4324-a770-6acec8171cd9")
 		(property "Reference" "LED24"
-			(at 223.52 54.61 0)
+			(at 237.49 43.18 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -15813,7 +15832,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 223.52 59.69 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -15821,7 +15840,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 223.52 60.96 0)
+			(at 237.49 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15830,7 +15849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.6426 55.5622 0)
+			(at 240.6126 42.2278 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -15839,7 +15858,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 54.61 0)
+			(at 237.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15848,7 +15867,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 223.52 54.61 0)
+			(at 237.49 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,137 +15891,6 @@
 			(project "Sofle_Pico"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "LED24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 240.03 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "53cb59b4-54bb-4cc2-ba1f-09401e8d2033")
-		(property "Reference" "#PWR0113"
-			(at 240.03 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "872e7830-2688-4cff-adb5-5829bba1f515")
-		)
-		(instances
-			(project "Sofle_Pico"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 236.22 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55cb47f0-8c5c-4258-aeaa-cfcc4eade225")
-		(property "Reference" "#PWR017"
-			(at 236.22 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 236.803 27.3553 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 236.22 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45199208-4c9b-48d2-bb2f-b0fa16992ca9")
-		)
-		(instances
-			(project "sofle_nest"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -16069,72 +15957,6 @@
 			(project "sofle_nest"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "576bde0c-01e5-4134-9fdd-c75933dbcc70")
-		(property "Reference" "#PWR0117"
-			(at 210.82 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "719488b3-88c4-44ed-a93d-3652c264b8c2")
-		)
-		(instances
-			(project "Sofle_Pico"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -16273,8 +16095,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 237.49 66.04 0)
-		(mirror y)
+		(at 251.46 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16282,7 +16103,7 @@
 		(dnp no)
 		(uuid "5d405f66-9d24-41b6-8ae2-1544466b5294")
 		(property "Reference" "LED29"
-			(at 237.49 66.04 0)
+			(at 251.714 78.74 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -16290,7 +16111,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 237.49 60.96 0)
+			(at 251.46 72.39 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -16298,7 +16119,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 237.49 59.69 0)
+			(at 251.46 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16307,7 +16128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.6126 65.0878 0)
+			(at 254.5826 79.6922 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16316,7 +16137,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 66.04 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16325,7 +16146,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 237.49 66.04 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16355,71 +16176,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 205.74 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f9267e7-1946-44cd-a62d-540666abd4e4")
-		(property "Reference" "#PWR013"
-			(at 205.74 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 205.74 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 205.74 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f0ba675-8b5e-4796-9b8b-847059b00ea0")
-		)
-		(instances
-			(project "sofle_nest"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 182.88 105.41 0)
 		(unit 1)
@@ -16427,6 +16183,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5fe0393e-c9a9-4193-a291-89c6198bb352")
 		(property "Reference" "#PWR010"
 			(at 182.88 111.76 0)
@@ -16487,7 +16244,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 245.11 27.94 0)
+		(at 237.49 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16496,7 +16253,7 @@
 		(dnp no)
 		(uuid "602292bd-6047-41e1-b6ec-c28c59407401")
 		(property "Reference" "LED27"
-			(at 245.11 27.94 0)
+			(at 237.744 77.47 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -16504,15 +16261,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 245.11 22.86 0)
+			(at 237.49 72.39 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:DropLight_SK6803_MINI-E_v3.5.5"
-			(at 245.11 21.59 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(at 237.49 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16521,7 +16278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.2326 26.9878 0)
+			(at 240.6126 76.5178 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16530,7 +16287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 27.94 0)
+			(at 237.49 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16539,7 +16296,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 245.11 27.94 0)
+			(at 237.49 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16560,7 +16317,7 @@
 			(uuid "63cc615c-3940-482e-9925-a37fe37ad68f")
 		)
 		(instances
-			(project "Sofle_Pico"
+			(project "sofle_nest"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "LED27")
 					(unit 1)
@@ -16576,6 +16333,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6146bcf5-20ad-4c2a-b830-bf330108c630")
 		(property "Reference" "#PWR0132"
 			(at 232.41 74.93 0)
@@ -16635,9 +16393,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 209.55 77.47 0)
-		(mirror y)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(at 215.9 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16645,7 +16402,7 @@
 		(dnp no)
 		(uuid "623a3eaf-d190-4ef0-a69e-63d686235da1")
 		(property "Reference" "LED18"
-			(at 209.55 77.47 0)
+			(at 215.9 108.204 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -16653,15 +16410,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 209.55 72.39 0)
+			(at 215.9 113.284 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 209.55 71.12 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+			(at 215.9 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16670,7 +16427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.6726 76.5178 0)
+			(at 219.0226 108.9022 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16679,7 +16436,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 77.47 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16688,7 +16445,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 209.55 77.47 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16725,6 +16482,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "65731c3e-929f-40fb-974f-2045f8e880a0")
 		(property "Reference" "#PWR0120"
 			(at 190.5 58.42 0)
@@ -16791,6 +16549,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "680ae2d4-f1e2-4193-af08-9b3cafc53e6e")
 		(property "Reference" "#PWR0112"
 			(at 229.87 49.53 0)
@@ -16802,7 +16561,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 230.453 42.5953 0)
+			(at 229.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,6 +16753,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 187.96 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c08748e-3ce8-4dbb-b411-d69472aec34d")
+		(property "Reference" "#PWR014"
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "792d7210-cc0f-4ae0-a856-247605e6a5ae")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sofle_Nest:SW_PUSH")
 		(at 78.74 144.78 0)
 		(unit 1)
@@ -17142,6 +16967,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6ef251f3-9fb5-4b31-811a-8f82987bf224")
 		(property "Reference" "#PWR0116"
 			(at 218.44 58.42 0)
@@ -17201,71 +17027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 220.98 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f37eb9e-989d-4f63-b722-6c540ec9997e")
-		(property "Reference" "#PWR024"
-			(at 220.98 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 220.98 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 220.98 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "364fdb3b-44c4-4a8f-8e12-5bacffb760fa")
-		)
-		(instances
-			(project "sofle_nest"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 40.64 0)
 		(unit 1)
@@ -17273,6 +17034,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "70f65950-29a6-4743-9daa-7b35b9773dc7")
 		(property "Reference" "#PWR0115"
 			(at 218.44 46.99 0)
@@ -17398,15 +17160,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 94.615 0)
+		(at 160.02 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "73d9d12c-aa2c-4af8-b110-af0eb1b1c370")
 		(property "Reference" "#PWR0105"
-			(at 160.02 100.965 0)
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17415,7 +17178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 98.425 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17424,7 +17187,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 94.615 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17433,7 +17196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 94.615 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17442,7 +17205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 94.615 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17464,15 +17227,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 33.02 0)
+		(at 193.04 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "74a0a022-a98f-4a2e-84c4-42a6fd497aaa")
 		(property "Reference" "#PWR07"
-			(at 175.26 39.37 0)
+			(at 193.04 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17481,7 +17245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 36.83 0)
+			(at 193.04 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17490,7 +17254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 33.02 0)
+			(at 193.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17499,7 +17263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 33.02 0)
+			(at 193.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17508,7 +17272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 33.02 0)
+			(at 193.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17536,6 +17300,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "74b0647d-ec8a-4527-af0d-e7f779a4336a")
 		(property "Reference" "#PWR0137"
 			(at 259.08 49.53 0)
@@ -17547,11 +17312,12 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 259.663 42.5953 0)
+			(at 261.62 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17660,8 +17426,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:DropLight_SK6803MINIE_V2")
-		(at 231.14 27.94 180)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(at 237.49 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17669,7 +17436,7 @@
 		(dnp no)
 		(uuid "76219302-f1d6-45f2-b1fa-680eecf6419d")
 		(property "Reference" "LED26"
-			(at 231.14 27.94 0)
+			(at 237.49 66.294 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -17677,7 +17444,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 231.14 33.02 0)
+			(at 237.49 60.96 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -17685,7 +17452,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 231.14 34.29 0)
+			(at 237.49 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17694,7 +17461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.2626 28.8922 0)
+			(at 240.6126 65.0878 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17703,7 +17470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 27.94 0)
+			(at 237.49 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17712,7 +17479,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 231.14 27.94 0)
+			(at 237.49 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17743,7 +17510,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 223.52 92.71 180)
+		(at 223.52 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17751,7 +17518,7 @@
 		(dnp no)
 		(uuid "77b885bb-750f-4cfc-a1e5-8cbfef8791f2")
 		(property "Reference" "LED21"
-			(at 223.52 92.71 0)
+			(at 223.52 66.294 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -17759,7 +17526,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 223.52 97.79 0)
+			(at 223.52 60.96 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -17767,7 +17534,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 223.52 99.06 0)
+			(at 223.52 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17776,7 +17543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.6426 93.6622 0)
+			(at 226.6426 66.9922 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17785,7 +17552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 92.71 0)
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17794,7 +17561,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 223.52 92.71 0)
+			(at 223.52 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17824,8 +17591,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 251.46 43.18 180)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(at 187.96 29.21 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17833,7 +17601,7 @@
 		(dnp no)
 		(uuid "7909505c-f9a0-49af-bd26-a2f894a7f02c")
 		(property "Reference" "LED35"
-			(at 251.46 43.18 0)
+			(at 187.96 29.21 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -17841,15 +17609,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 251.46 48.26 0)
+			(at 187.96 24.13 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 251.46 49.53 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+			(at 187.96 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17858,7 +17626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254.5826 44.1322 0)
+			(at 184.8374 30.1622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17867,7 +17635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 43.18 0)
+			(at 187.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17876,7 +17644,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 251.46 43.18 0)
+			(at 187.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17982,12 +17750,80 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 220.98 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c74973c-5edb-4fed-8145-2cd696ca45e5")
+		(property "Reference" "#PWR017"
+			(at 220.98 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b88a44a-e281-4a56-8446-908611f4cf1b")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 190.5 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "80303e2a-fb53-44f7-bebc-b99744f4ff34")
 		(property "Reference" "#PWR0124"
 			(at 190.5 81.28 0)
@@ -18048,7 +17884,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 195.58 54.61 180)
+		(at 195.58 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18056,7 +17892,7 @@
 		(dnp no)
 		(uuid "8310f2f8-68f5-4165-8770-0136a26bacf2")
 		(property "Reference" "LED12"
-			(at 195.58 54.61 0)
+			(at 195.834 43.434 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -18064,7 +17900,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 195.58 59.69 0)
+			(at 195.58 38.1 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -18072,7 +17908,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 195.58 60.96 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18081,7 +17917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.7026 55.5622 0)
+			(at 198.7026 44.1322 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18090,7 +17926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 54.61 0)
+			(at 195.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18099,7 +17935,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 195.58 54.61 0)
+			(at 195.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18130,7 +17966,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 195.58 77.47 180)
+		(at 195.58 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18138,7 +17974,7 @@
 		(dnp no)
 		(uuid "87baded3-2943-40fe-99c0-a85487f98f30")
 		(property "Reference" "LED10"
-			(at 195.58 77.47 0)
+			(at 195.834 66.294 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -18146,7 +17982,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 195.58 82.55 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -18154,7 +17990,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 195.58 83.82 0)
+			(at 195.58 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18163,7 +17999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.7026 78.4222 0)
+			(at 198.7026 66.9922 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18172,7 +18008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 77.47 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18181,7 +18017,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 195.58 77.47 0)
+			(at 195.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18212,7 +18048,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 223.52 66.04 180)
+		(at 223.52 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18220,7 +18056,7 @@
 		(dnp no)
 		(uuid "8a5b47aa-7906-4341-a0c4-b5522e6e2463")
 		(property "Reference" "LED23"
-			(at 223.52 66.04 0)
+			(at 223.52 43.18 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -18228,7 +18064,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 223.52 71.12 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -18236,7 +18072,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 223.52 72.39 0)
+			(at 223.52 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18245,7 +18081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.6426 66.9922 0)
+			(at 226.6426 44.1322 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18254,7 +18090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 66.04 0)
+			(at 223.52 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18263,7 +18099,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 223.52 66.04 0)
+			(at 223.52 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18287,6 +18123,73 @@
 			(project "Sofle_Pico"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 238.76 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b1f2140-889b-438b-b8b0-031304c56ecc")
+		(property "Reference" "#PWR028"
+			(at 238.76 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 236.22 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27775af0-3b0f-4e8c-90a0-9defc7632b65")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18446,6 +18349,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "944417ca-f030-452c-ba15-3f842ef3702d")
 		(property "Reference" "#PWR0125"
 			(at 204.47 86.36 0)
@@ -18572,7 +18476,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 215.9 27.94 0)
+		(at 209.55 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18581,7 +18485,7 @@
 		(dnp no)
 		(uuid "966ecee2-f61b-4a85-9910-94d1ab8b0bf0")
 		(property "Reference" "LED15"
-			(at 215.9 27.94 0)
+			(at 209.55 66.04 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -18589,15 +18493,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 215.9 22.86 0)
+			(at 209.55 60.96 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:DropLight_SK6803_MINI-E_v3.5.5"
-			(at 215.9 21.59 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(at 209.55 59.69 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18606,7 +18510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.0226 26.9878 0)
+			(at 212.6726 65.0878 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18615,7 +18519,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 27.94 0)
+			(at 209.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18624,7 +18528,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 215.9 27.94 0)
+			(at 209.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18724,8 +18628,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 251.46 66.04 180)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(at 243.84 29.21 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18733,7 +18638,7 @@
 		(dnp no)
 		(uuid "a150b9ae-4707-44be-9d43-350a011237b2")
 		(property "Reference" "LED33"
-			(at 251.46 66.04 0)
+			(at 244.094 29.21 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -18741,15 +18646,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 251.46 71.12 0)
+			(at 243.84 24.13 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 251.46 72.39 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+			(at 243.84 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18758,7 +18663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254.5826 66.9922 0)
+			(at 240.7174 30.1622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18767,7 +18672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 66.04 0)
+			(at 243.84 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18776,7 +18681,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 251.46 66.04 0)
+			(at 243.84 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18813,6 +18718,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a36d7090-31fd-440b-b838-1f331b366a07")
 		(property "Reference" "#PWR0111"
 			(at 243.84 44.45 0)
@@ -18824,7 +18730,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 243.84 36.83 0)
+			(at 243.84 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18872,7 +18778,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 180.34 66.04 0)
+		(at 180.34 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18881,7 +18787,7 @@
 		(dnp no)
 		(uuid "a4546549-8db6-4ae0-880b-c9032a8a7302")
 		(property "Reference" "LED4"
-			(at 180.34 66.294 0)
+			(at 180.34 77.724 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -18889,7 +18795,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 180.34 60.96 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -18897,7 +18803,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 180.34 59.69 0)
+			(at 180.34 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18906,7 +18812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 183.4626 65.0878 0)
+			(at 183.4626 76.5178 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18915,7 +18821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 66.04 0)
+			(at 180.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18924,7 +18830,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 180.34 66.04 0)
+			(at 180.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19036,6 +18942,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a809a181-ca58-4b05-aee1-8f43498a6326")
 		(property "Reference" "#PWR0127"
 			(at 204.47 63.5 0)
@@ -19165,8 +19072,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acccd02a-7c3b-49b8-b92e-d5b4d3e81c69")
+		(property "Reference" "#PWR011"
+			(at 204.47 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d31b95c6-c8c2-4493-9585-17a0872bbe9b")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 209.55 54.61 0)
+		(at 209.55 77.47 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19175,7 +19149,7 @@
 		(dnp no)
 		(uuid "aeb5dd14-2615-4124-9a4f-20a3e9978807")
 		(property "Reference" "LED16"
-			(at 209.55 54.61 0)
+			(at 209.55 77.724 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -19183,7 +19157,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 209.55 49.53 0)
+			(at 209.55 72.39 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -19191,7 +19165,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 209.55 48.26 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19200,7 +19174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.6726 53.6578 0)
+			(at 212.6726 76.5178 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19209,7 +19183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 54.61 0)
+			(at 209.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19218,7 +19192,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 209.55 54.61 0)
+			(at 209.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19248,8 +19222,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:DropLight_SK6803MINIE_V2")
-		(at 187.96 107.95 180)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(at 195.58 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19257,7 +19231,7 @@
 		(dnp no)
 		(uuid "aeb798c0-d36a-48bf-8a49-a4b7c19fe706")
 		(property "Reference" "LED8"
-			(at 187.96 107.95 0)
+			(at 195.58 92.71 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -19265,15 +19239,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 187.96 113.03 0)
+			(at 195.58 87.63 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:DropLight_SK6803_MINI-E_v3.5.5"
-			(at 187.96 114.3 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(at 195.58 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19282,7 +19256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.0826 108.9022 0)
+			(at 198.7026 93.6622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19291,7 +19265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 107.95 0)
+			(at 195.58 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19300,7 +19274,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 187.96 107.95 0)
+			(at 195.58 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19337,6 +19311,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "aee9b73e-f354-4e4e-9b6f-f4f33c8b482a")
 		(property "Reference" "#PWR0119"
 			(at 190.5 46.99 0)
@@ -19397,15 +19372,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 94.615 0)
+		(at 175.26 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b18ee75a-e598-43ec-83eb-6a0b7adad33e")
 		(property "Reference" "#PWR0102"
-			(at 175.26 100.965 0)
+			(at 175.26 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19414,7 +19390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 98.425 0)
+			(at 175.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19423,7 +19399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 94.615 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19432,7 +19408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 94.615 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19441,7 +19417,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 94.615 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19463,7 +19439,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 180.34 43.18 0)
+		(at 180.34 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19472,7 +19448,172 @@
 		(dnp no)
 		(uuid "b383a155-a2c1-405f-a856-25ab138cb67f")
 		(property "Reference" "LED2"
-			(at 180.34 43.18 0)
+			(at 180.594 54.61 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+			)
+		)
+		(property "Value" "SK6803 MINI-E"
+			(at 180.34 49.53 0)
+			(effects
+				(font
+					(size 0.4064 0.4064)
+				)
+			)
+		)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.4626 53.6578 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" ""
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6b45ad-1605-41ba-a4cf-d9eac52bb270")
+		)
+		(pin "2"
+			(uuid "9d779924-b055-43df-a141-95a1096e7fd0")
+		)
+		(pin "3"
+			(uuid "498005c1-748a-4999-93eb-d7490575567e")
+		)
+		(pin "4"
+			(uuid "1e3f96f5-e59d-4725-9564-e2d081f85e5f")
+		)
+		(instances
+			(project "Sofle_Pico"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(at 223.52 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57c707c-f18a-41c8-a8ba-4943b763f560")
+		(property "Reference" "LED22"
+			(at 223.774 54.61 0)
+			(effects
+				(font
+					(size 1.2954 1.2954)
+				)
+			)
+		)
+		(property "Value" "SK6803 MINI-E"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 0.4064 0.4064)
+				)
+			)
+		)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(at 223.52 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.6426 55.5622 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_PN" ""
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad50889f-4a72-44ac-9531-a70359255c36")
+		)
+		(pin "2"
+			(uuid "4811cb38-58a2-48d8-a8e6-4f79e41ae4da")
+		)
+		(pin "3"
+			(uuid "20dd465a-eca0-4da5-b57b-727cd83b7351")
+		)
+		(pin "4"
+			(uuid "9df4c485-79c8-4353-aa30-73c0da6ea062")
+		)
+		(instances
+			(project "Sofle_Pico"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(at 180.34 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7113eed-b36f-4a9a-b955-c3dacde534a8")
+		(property "Reference" "LED1"
+			(at 180.594 43.18 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -19524,171 +19665,6 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d6b45ad-1605-41ba-a4cf-d9eac52bb270")
-		)
-		(pin "2"
-			(uuid "9d779924-b055-43df-a141-95a1096e7fd0")
-		)
-		(pin "3"
-			(uuid "498005c1-748a-4999-93eb-d7490575567e")
-		)
-		(pin "4"
-			(uuid "1e3f96f5-e59d-4725-9564-e2d081f85e5f")
-		)
-		(instances
-			(project "Sofle_Pico"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 223.52 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b57c707c-f18a-41c8-a8ba-4943b763f560")
-		(property "Reference" "LED22"
-			(at 223.52 77.47 0)
-			(effects
-				(font
-					(size 1.2954 1.2954)
-				)
-			)
-		)
-		(property "Value" "SK6803 MINI-E"
-			(at 223.52 82.55 0)
-			(effects
-				(font
-					(size 0.4064 0.4064)
-				)
-			)
-		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 223.52 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.6426 78.4222 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_PN" ""
-			(at 223.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad50889f-4a72-44ac-9531-a70359255c36")
-		)
-		(pin "2"
-			(uuid "4811cb38-58a2-48d8-a8e6-4f79e41ae4da")
-		)
-		(pin "3"
-			(uuid "20dd465a-eca0-4da5-b57b-727cd83b7351")
-		)
-		(pin "4"
-			(uuid "9df4c485-79c8-4353-aa30-73c0da6ea062")
-		)
-		(instances
-			(project "Sofle_Pico"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "LED22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sofle_Nest:DropLight_SK6803MINIE_V2")
-		(at 180.34 30.48 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7113eed-b36f-4a9a-b955-c3dacde534a8")
-		(property "Reference" "LED1"
-			(at 180.34 30.48 0)
-			(effects
-				(font
-					(size 1.2954 1.2954)
-				)
-			)
-		)
-		(property "Value" "SK6803 MINI-E"
-			(at 180.34 25.4 0)
-			(effects
-				(font
-					(size 0.4064 0.4064)
-				)
-			)
-		)
-		(property "Footprint" "Sofle_Nest:DropLight_SK6803_MINI-E_v3.5.5"
-			(at 180.34 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 183.4626 29.5278 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_PN" ""
-			(at 180.34 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
 			(uuid "e5f07a8c-68be-4639-b107-770eafb7a0ec")
 		)
 		(pin "2"
@@ -19717,6 +19693,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b7bada6e-7efd-4de6-b53b-63f3dea68ca4")
 		(property "Reference" "#PWR019"
 			(at 220.98 114.3 0)
@@ -19728,11 +19705,12 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 221.563 107.3653 0)
+			(at 223.52 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19769,72 +19747,6 @@
 			(project "sofle_nest"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8ed2fd8-2c82-4ea6-ad69-18184ea36bee")
-		(property "Reference" "#PWR014"
-			(at 226.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e720eda-ee00-470b-9620-18bf07f40ebb")
-		)
-		(instances
-			(project "sofle_nest"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -20057,6 +19969,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c9bbdf35-b167-48db-b4bd-38f3d6754456")
 		(property "Reference" "#PWR0108"
 			(at 175.26 86.36 0)
@@ -20116,8 +20029,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:DropLight_SK6803MINIE_V2")
-		(at 215.9 107.95 180)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(at 223.52 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20125,7 +20038,7 @@
 		(dnp no)
 		(uuid "cee5c0f2-817e-45d0-87dc-18a0181276d0")
 		(property "Reference" "LED20"
-			(at 215.9 107.95 0)
+			(at 223.52 77.724 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -20133,15 +20046,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 215.9 113.03 0)
+			(at 223.52 72.39 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:DropLight_SK6803_MINI-E_v3.5.5"
-			(at 215.9 114.3 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(at 223.52 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20150,7 +20063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.0226 108.9022 0)
+			(at 226.6426 78.4222 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20159,7 +20072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 107.95 0)
+			(at 223.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20168,7 +20081,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 215.9 107.95 0)
+			(at 223.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20198,9 +20111,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 237.49 54.61 0)
-		(mirror y)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(at 243.84 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20208,7 +20120,7 @@
 		(dnp no)
 		(uuid "d05b0627-6e58-456f-aefe-438578709658")
 		(property "Reference" "LED28"
-			(at 237.49 54.61 0)
+			(at 243.84 90.424 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -20216,15 +20128,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 237.49 49.53 0)
+			(at 243.84 97.79 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 237.49 48.26 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+			(at 243.84 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20233,7 +20145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.6126 53.6578 0)
+			(at 246.9626 91.1222 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20242,7 +20154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 54.61 0)
+			(at 243.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20251,7 +20163,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 237.49 54.61 0)
+			(at 243.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,6 +20200,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d1c1c226-ebdc-4fee-9058-4ae85f0facf5")
 		(property "Reference" "#PWR0130"
 			(at 218.44 69.85 0)
@@ -20348,15 +20261,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 89.535 0)
+		(at 218.44 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d2620057-09ed-408b-92f4-ca39a6dbe5d9")
 		(property "Reference" "#PWR0126"
-			(at 218.44 95.885 0)
+			(at 218.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20365,7 +20279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 93.345 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20374,7 +20288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 89.535 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20383,7 +20297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 89.535 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20392,7 +20306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 89.535 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20485,6 +20399,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d52a0a8b-6a59-4fef-ada6-0b885fd199c6")
 		(property "Reference" "#PWR0109"
 			(at 175.26 74.93 0)
@@ -20545,7 +20460,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 165.1 92.075 0)
+		(at 180.34 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20554,7 +20469,7 @@
 		(dnp no)
 		(uuid "d6dae497-b7fd-466c-bea0-90f8740d3294")
 		(property "Reference" "LED6"
-			(at 165.1 92.075 0)
+			(at 180.34 92.71 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -20562,7 +20477,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 165.1 86.995 0)
+			(at 180.34 100.33 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -20570,7 +20485,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 165.1 85.725 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20579,7 +20494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.2226 91.1228 0)
+			(at 183.4626 91.7578 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20588,7 +20503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 92.075 0)
+			(at 180.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20597,7 +20512,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 165.1 92.075 0)
+			(at 180.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20628,15 +20543,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 89.535 0)
+		(at 190.5 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d7cafa64-116a-47ba-99c7-bb9eaba67c6e")
 		(property "Reference" "#PWR0123"
-			(at 190.5 95.885 0)
+			(at 190.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20645,7 +20561,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 93.345 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20654,7 +20570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 89.535 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20663,7 +20579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 89.535 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +20588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 89.535 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20693,71 +20609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 250.19 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d834fa3c-3a64-4d79-974d-29f9ac263328")
-		(property "Reference" "#PWR025"
-			(at 250.19 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 250.19 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37b6a2e5-d40a-4b5e-93cb-67ea9f903684")
-		)
-		(instances
-			(project "sofle_nest"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.26 45.72 0)
 		(unit 1)
@@ -20765,6 +20616,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d88e7cbb-a048-40a2-b566-cdf6905baf07")
 		(property "Reference" "#PWR0107"
 			(at 175.26 52.07 0)
@@ -20831,6 +20683,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d8cb12b0-c23e-4005-861b-f60c8a57328c")
 		(property "Reference" "#PWR0134"
 			(at 246.38 69.85 0)
@@ -20891,7 +20744,8 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 223.52 43.18 180)
+		(at 237.49 54.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20899,7 +20753,7 @@
 		(dnp no)
 		(uuid "dcc193aa-3116-4a2f-87ce-cc9fe298c149")
 		(property "Reference" "LED25"
-			(at 223.52 43.18 0)
+			(at 237.49 54.864 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -20907,7 +20761,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 223.52 48.26 0)
+			(at 237.49 49.53 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -20915,7 +20769,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 223.52 49.53 0)
+			(at 237.49 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20924,7 +20778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.6426 44.1322 0)
+			(at 240.6126 53.6578 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20933,7 +20787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 43.18 0)
+			(at 237.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20942,7 +20796,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 223.52 43.18 0)
+			(at 237.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,6 +20833,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "de7a3e2a-9500-499a-95db-87fbd562e499")
 		(property "Reference" "#PWR0131"
 			(at 232.41 63.5 0)
@@ -21038,9 +20893,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 180.34 92.71 0)
-		(mirror y)
+		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(at 187.96 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21048,7 +20902,7 @@
 		(dnp no)
 		(uuid "df81ee88-9da3-4039-8e4b-581fe1d4bced")
 		(property "Reference" "LED7"
-			(at 180.34 92.71 0)
+			(at 187.96 108.204 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -21056,15 +20910,15 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 180.34 87.63 0)
+			(at 187.96 113.03 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 180.34 86.36 0)
+		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+			(at 187.96 114.3 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21073,7 +20927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 183.4626 91.7578 0)
+			(at 191.0826 108.9022 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21082,7 +20936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 92.71 0)
+			(at 187.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21091,7 +20945,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 180.34 92.71 0)
+			(at 187.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21378,7 +21232,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 195.58 66.04 180)
+		(at 195.58 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21386,7 +21240,7 @@
 		(dnp no)
 		(uuid "e45f7238-b171-4482-8f45-ccd1ae3c28ba")
 		(property "Reference" "LED11"
-			(at 195.58 66.04 0)
+			(at 195.834 54.864 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -21394,7 +21248,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 195.58 71.12 0)
+			(at 195.58 49.53 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -21402,7 +21256,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 195.58 72.39 0)
+			(at 195.58 60.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21411,7 +21265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.7026 66.9922 0)
+			(at 198.7026 55.5622 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21420,7 +21274,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 66.04 0)
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21429,7 +21283,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 195.58 66.04 0)
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21526,7 +21380,7 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 180.34 77.47 0)
+		(at 165.1 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21535,7 +21389,7 @@
 		(dnp no)
 		(uuid "eab43d2c-31ac-461d-94f6-908d8d175f72")
 		(property "Reference" "LED5"
-			(at 180.34 77.47 0)
+			(at 164.846 92.456 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -21543,7 +21397,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 180.34 72.39 0)
+			(at 165.1 86.995 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -21551,7 +21405,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 180.34 71.12 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21560,7 +21414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 183.4626 76.5178 0)
+			(at 168.2226 91.7578 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21569,7 +21423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 77.47 0)
+			(at 165.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21578,7 +21432,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 180.34 77.47 0)
+			(at 165.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21609,7 +21463,8 @@
 	)
 	(symbol
 		(lib_id "Sofle_Nest:SK6803MINIE_V2")
-		(at 198.12 27.94 180)
+		(at 209.55 54.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21617,7 +21472,7 @@
 		(dnp no)
 		(uuid "eb468d2d-2b25-4ff2-a318-c1de6ab7cf8a")
 		(property "Reference" "LED14"
-			(at 198.12 27.94 0)
+			(at 209.55 54.61 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -21625,7 +21480,7 @@
 			)
 		)
 		(property "Value" "SK6803 MINI-E"
-			(at 198.12 33.02 0)
+			(at 209.55 49.53 0)
 			(effects
 				(font
 					(size 0.4064 0.4064)
@@ -21633,7 +21488,7 @@
 			)
 		)
 		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
-			(at 198.12 34.29 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21642,7 +21497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.2426 28.8922 0)
+			(at 212.6726 53.6578 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -21651,7 +21506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 27.94 0)
+			(at 209.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21660,7 +21515,7 @@
 			)
 		)
 		(property "JLCPCB_PN" ""
-			(at 198.12 27.94 0)
+			(at 209.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21691,24 +21546,24 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 259.08 40.64 0)
+		(at 182.88 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ecfc4235-e141-401f-81f4-0075bdd35177")
 		(property "Reference" "TP1"
-			(at 257.175 34.925 0)
+			(at 182.88 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 260.477 38.5501 0)
+			(at 184.277 24.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21718,7 +21573,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 264.16 40.64 0)
+			(at 187.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21727,7 +21582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 40.64 0)
+			(at 187.96 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21736,7 +21591,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 259.08 40.64 0)
+			(at 182.88 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21745,7 +21600,7 @@
 			)
 		)
 		(property "JLCPCB_PN" "C94111"
-			(at 259.08 40.64 0)
+			(at 182.88 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21757,7 +21612,7 @@
 			(uuid "f761a58f-5ae4-47c9-9696-fec9f068da56")
 		)
 		(instances
-			(project "Sofle_Pico"
+			(project "sofle_nest"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "TP1")
 					(unit 1)
@@ -21848,6 +21703,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f028fcb7-22be-4a6d-8609-344bb82e0546")
 		(property "Reference" "#PWR0118"
 			(at 201.93 49.53 0)
@@ -21859,7 +21715,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 202.513 42.5953 0)
+			(at 201.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21982,12 +21838,80 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
+		(at 210.82 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbbf2ccc-54ce-4777-b5e6-3579d8affd9c")
+		(property "Reference" "#PWR026"
+			(at 210.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 208.28 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 210.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "555bbbb3-2308-4ac9-a7e2-112f4e51205c")
+		)
+		(instances
+			(project "sofle_nest"
+				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
 		(at 248.92 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "fe6d4b47-dd11-405f-b71e-f9842a88d068")
 		(property "Reference" "#PWR018"
 			(at 248.92 96.52 0)
@@ -21999,11 +21923,12 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 249.503 89.5853 0)
+			(at 251.46 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

@@ -2432,7 +2432,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SK6803MINIE_V2"
+	(symbol "SK6812-MINI"
 		(pin_names
 			(offset 1.016)
 		)
@@ -2447,7 +2447,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6812 MINI"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2455,7 +2455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -2491,7 +2491,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SK6803MINIE_V2_1_1"
+		(symbol "SK6812-MINI_1_1"
 			(rectangle
 				(start -3.81 3.81)
 				(end 3.81 -3.81)
@@ -2580,7 +2580,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SK6803MINIE_V2_Underglow"
+	(symbol "SK6812-MINI-E"
 		(pin_names
 			(offset 1.016)
 		)
@@ -2595,7 +2595,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6812 MINI-E"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2603,7 +2603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -2639,7 +2639,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SK6803MINIE_V2_Underglow_1_1"
+		(symbol "SK6812-MINI-E_1_1"
 			(rectangle
 				(start -3.81 3.81)
 				(end 3.81 -3.81)

@@ -2240,7 +2240,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sofle_Nest:SK6803MINIE_V2"
+		(symbol "Sofle_Nest:SK6812-MINI"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2255,7 +2255,7 @@
 					)
 				)
 			)
-			(property "Value" "SK6803 MINI-E"
+			(property "Value" "SK6812 MINI"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2263,7 +2263,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+			(property "Footprint" "Sofle_Nest:SK6812_MINI"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -2299,7 +2299,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6803MINIE_V2_1_1"
+			(symbol "SK6812-MINI_1_1"
 				(rectangle
 					(start -3.81 3.81)
 					(end 3.81 -3.81)
@@ -2388,7 +2388,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sofle_Nest:SK6803MINIE_V2_Underglow"
+		(symbol "Sofle_Nest:SK6812-MINI-E"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2403,7 +2403,7 @@
 					)
 				)
 			)
-			(property "Value" "SK6803 MINI-E"
+			(property "Value" "SK6812 MINI-E"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2411,7 +2411,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+			(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -2447,7 +2447,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6803MINIE_V2_Underglow_1_1"
+			(symbol "SK6812-MINI-E_1_1"
 				(rectangle
 					(start -3.81 3.81)
 					(end 3.81 -3.81)
@@ -11902,7 +11902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 118.11 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11926,7 +11926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 118.11 66.04 0)
 			(effects
 				(font
@@ -12054,7 +12054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 57.15 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12078,7 +12078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 57.15 43.18 0)
 			(effects
 				(font
@@ -12493,7 +12493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 38.1 85.09 0)
 		(mirror x)
 		(unit 1)
@@ -12518,7 +12518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 38.1 91.44 0)
 			(effects
 				(font
@@ -12651,7 +12651,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 118.11 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12675,7 +12675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -12808,7 +12808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 100.33 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -12833,7 +12833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 100.33 54.61 0)
 			(effects
 				(font
@@ -12891,7 +12891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(lib_id "Sofle_Nest:SK6812-MINI")
 		(at 82.55 25.4 0)
 		(mirror y)
 		(unit 1)
@@ -12908,7 +12908,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6803 MINI"
 			(at 82.55 30.48 0)
 			(effects
 				(font
@@ -12916,7 +12916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI"
 			(at 82.55 19.05 0)
 			(effects
 				(font
@@ -12974,7 +12974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(lib_id "Sofle_Nest:SK6812-MINI")
 		(at 44.45 96.52 0)
 		(mirror x)
 		(unit 1)
@@ -12991,7 +12991,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6803 MINI"
 			(at 44.45 101.6 0)
 			(effects
 				(font
@@ -12999,7 +12999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI"
 			(at 44.45 102.87 0)
 			(effects
 				(font
@@ -13057,7 +13057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 71.12 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -13082,7 +13082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 71.12 31.75 0)
 			(effects
 				(font
@@ -13140,7 +13140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 118.11 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13164,7 +13164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 118.11 44.45 0)
 			(effects
 				(font
@@ -13288,7 +13288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 57.15 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13312,7 +13312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -13567,7 +13567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 57.15 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13591,7 +13591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 57.15 66.04 0)
 			(effects
 				(font
@@ -13649,7 +13649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 71.12 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -13674,7 +13674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 71.12 78.74 0)
 			(effects
 				(font
@@ -13732,7 +13732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 39.37 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -13757,7 +13757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 39.37 78.74 0)
 			(effects
 				(font
@@ -14298,7 +14298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 86.36 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14322,7 +14322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 86.36 67.31 0)
 			(effects
 				(font
@@ -14380,7 +14380,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 71.12 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -14405,7 +14405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 71.12 54.61 0)
 			(effects
 				(font
@@ -14463,7 +14463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(lib_id "Sofle_Nest:SK6812-MINI")
 		(at 50.8 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14479,7 +14479,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6803 MINI"
 			(at 50.8 20.32 0)
 			(effects
 				(font
@@ -14487,7 +14487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -14686,7 +14686,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 86.36 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14710,7 +14710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 86.36 44.45 0)
 			(effects
 				(font
@@ -14768,7 +14768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 39.37 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -14793,7 +14793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 39.37 54.61 0)
 			(effects
 				(font
@@ -14851,7 +14851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 39.37 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -14876,7 +14876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 39.37 31.75 0)
 			(effects
 				(font
@@ -15278,7 +15278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 57.15 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15302,7 +15302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 57.15 67.31 0)
 			(effects
 				(font
@@ -15430,7 +15430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(lib_id "Sofle_Nest:SK6812-MINI")
 		(at 118.11 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15446,7 +15446,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6803 MINI"
 			(at 118.11 20.32 0)
 			(effects
 				(font
@@ -15454,7 +15454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI"
 			(at 118.11 31.75 0)
 			(effects
 				(font
@@ -15512,7 +15512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(lib_id "Sofle_Nest:SK6812-MINI")
 		(at 110.49 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15528,7 +15528,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6803 MINI"
 			(at 110.49 87.122 0)
 			(effects
 				(font
@@ -15536,7 +15536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -15739,7 +15739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 100.33 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -15764,7 +15764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 100.33 78.74 0)
 			(effects
 				(font
@@ -15822,7 +15822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 71.12 85.09 0)
 		(mirror x)
 		(unit 1)
@@ -15847,7 +15847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 71.12 91.44 0)
 			(effects
 				(font
@@ -15905,7 +15905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 39.37 49.53 0)
 		(mirror x)
 		(unit 1)
@@ -15930,7 +15930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 39.37 55.88 0)
 			(effects
 				(font
@@ -15988,7 +15988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 86.36 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16012,7 +16012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 86.36 43.18 0)
 			(effects
 				(font
@@ -16070,7 +16070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 100.33 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -16095,7 +16095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 100.33 31.75 0)
 			(effects
 				(font
@@ -16494,7 +16494,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 85.09 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16518,7 +16518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 85.09 66.04 0)
 			(effects
 				(font
@@ -16576,7 +16576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 25.4 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16600,7 +16600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 25.4 78.74 0)
 			(effects
 				(font
@@ -16658,7 +16658,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2_Underglow")
+		(lib_id "Sofle_Nest:SK6812-MINI")
 		(at 78.74 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16674,7 +16674,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6803 MINI-E"
+		(property "Value" "SK6803 MINI"
 			(at 78.74 92.964 0)
 			(effects
 				(font
@@ -16682,7 +16682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5_Underglow"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI"
 			(at 78.74 91.44 0)
 			(effects
 				(font
@@ -16740,7 +16740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 71.12 49.53 0)
 		(mirror x)
 		(unit 1)
@@ -16765,7 +16765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 71.12 55.88 0)
 			(effects
 				(font
@@ -16823,7 +16823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 57.15 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16847,7 +16847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -17161,7 +17161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 118.11 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17185,7 +17185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 118.11 43.18 0)
 			(effects
 				(font
@@ -17309,7 +17309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 85.09 85.09 0)
 		(mirror x)
 		(unit 1)
@@ -17334,7 +17334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 85.09 91.44 0)
 			(effects
 				(font
@@ -17392,7 +17392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sofle_Nest:SK6803MINIE_V2")
+		(lib_id "Sofle_Nest:SK6812-MINI-E")
 		(at 100.33 49.53 0)
 		(mirror x)
 		(unit 1)
@@ -17417,7 +17417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Sofle_Nest:SK6803_MINI-E_v3.5.5"
+		(property "Footprint" "Sofle_Nest:SK6812_MINI-E"
 			(at 100.33 55.88 0)
 			(effects
 				(font

@@ -4,15 +4,15 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "${REFERENCE}"
-		(at 6.0452 2.0066 180)
+		(at 5.2 1.62 180)
 		(layer "B.SilkS")
 		(uuid "19748e9c-95ab-4d56-8771-9fa2ef60e151")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.08)
 			)
-			(justify left mirror)
+			(justify mirror)
 		)
 	)
 	(property "Value" "SW_PUSH"
@@ -478,15 +478,14 @@
 		(uuid "824108af-03a7-4fa2-bb90-ecad759b16a2")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -6.3754 1.9812 180)
+		(at -5.02 1.7 180)
 		(layer "F.SilkS")
 		(uuid "f834e10f-be2a-4495-b479-dcbc99050345")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.08)
 			)
-			(justify left)
 		)
 	)
 	(pad "" np_thru_hole circle
@@ -603,7 +602,7 @@
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.1)
 		(chamfer_ratio 0.25)
-		(chamfer bottom_left)
+		(chamfer top_right bottom_left)
 		(teardrops
 			(best_length_ratio 0.8)
 			(max_length 1)

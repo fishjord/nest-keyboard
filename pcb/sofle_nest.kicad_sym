@@ -990,7 +990,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -5.08 -7.62 0)
 				(length 3.81)
 				(hide yes)
@@ -1009,7 +1009,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -5.08 -10.16 0)
 				(length 3.81)
 				(hide yes)
@@ -1028,7 +1028,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -5.08 -12.7 0)
 				(length 3.81)
 				(hide yes)
@@ -1047,7 +1047,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin free line
 				(at -5.08 -15.24 0)
 				(length 3.81)
 				(hide yes)

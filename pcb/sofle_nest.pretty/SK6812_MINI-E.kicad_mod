@@ -5,13 +5,13 @@
 	(layer "F.Cu")
 	(descr "SK6803_MINI-E, Datasheet matching pinout, Double Sided")
 	(property "Reference" "${REFERENCE}"
-		(at 0 -2.2 0)
+		(at 0 -1.9 0)
 		(layer "B.SilkS")
 		(uuid "b1a95076-0ec3-4cf9-9197-9ad0ed453532")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.08)
 			)
 			(justify mirror)
 		)
@@ -263,13 +263,13 @@
 		(uuid "383f3f49-ac48-4c81-a490-83fdfc70e0cc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.2 0)
+		(at 0 -1.9 0)
 		(layer "F.SilkS")
 		(uuid "2e3f1525-a79b-48cd-91ee-21e3e253c18f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.6 0.6)
+				(thickness 0.08)
 			)
 		)
 	)

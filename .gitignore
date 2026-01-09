@@ -9,3 +9,4 @@ _autosave*
 fp-info-cache
 gerbers/
 \#auto_saved_files\#
+*:Zone.Identifier

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NestWireless")(type "KiCad")(uri "${KIPRJMOD}/nest_wireless.pretty")(options "")(descr ""))
+)

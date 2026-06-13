@@ -3333,12 +3333,6 @@
 		(uuid "547af55c-a653-431e-9b53-c84f416fb692")
 	)
 	(junction
-		(at 212.09 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d30e7f9-8daa-4530-ae1a-a0699e50687a")
-	)
-	(junction
 		(at 176.53 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3355,12 +3349,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c82ec84-884a-4838-8917-3cab27b0821a")
-	)
-	(junction
-		(at 232.41 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78dab43c-50b7-4d60-a0a5-2b5856b5e753")
 	)
 	(junction
 		(at 232.41 33.02)
@@ -3465,12 +3453,6 @@
 		(uuid "d1ddf1cc-2cd8-4999-aa91-d5e4136981d5")
 	)
 	(junction
-		(at 217.17 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcaf2c15-6e27-429e-8841-8a26d0ed38b5")
-	)
-	(junction
 		(at 151.13 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3487,12 +3469,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8b7a693-90bb-4e53-9ea1-693a723c7f09")
-	)
-	(junction
-		(at 237.49 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1c88f9d-3081-4ead-9599-0549c2442db9")
 	)
 	(junction
 		(at 212.09 33.02)
@@ -3625,26 +3601,6 @@
 			(type default)
 		)
 		(uuid "358d204c-a9b2-41c5-b9d7-38faf4e2d783")
-	)
-	(wire
-		(pts
-			(xy 237.49 74.93) (xy 237.49 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39d7680f-c77d-4060-93d0-89e16009afcd")
-	)
-	(wire
-		(pts
-			(xy 232.41 99.06) (xy 252.73 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac4e0be-4f46-47ad-8831-cc56ca6de499")
 	)
 	(wire
 		(pts
@@ -3855,16 +3811,6 @@
 			(type default)
 		)
 		(uuid "81f2f979-4c69-42be-b834-523f9f211164")
-	)
-	(wire
-		(pts
-			(xy 217.17 74.93) (xy 217.17 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84f3ed95-12df-4bcf-9487-ffdb9fe10a38")
 	)
 	(wire
 		(pts
@@ -4115,16 +4061,6 @@
 			(type default)
 		)
 		(uuid "d0500669-71d8-458e-b850-666832564ab5")
-	)
-	(wire
-		(pts
-			(xy 212.09 99.06) (xy 232.41 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1642014-6e8d-46ab-8da2-aa8ac1280909")
 	)
 	(wire
 		(pts
@@ -9531,111 +9467,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NestWireless:Key_Diode")
-		(at 232.41 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b734f9e")
-		(property "Reference" "D29"
-			(at 234.4166 94.0816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 234.4166 96.393 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NestWireless:D_SOD-123_DO-35_Hybrid_DoubleSided_V2"
-			(at 232.41 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Semtech"
-			(at 232.41 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" "1N4148W"
-			(at 232.41 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "75v"
-			(at 232.41 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_PN" "C81598"
-			(at 232.41 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34ee044d-1e90-4398-8d9a-bc240ae6a0d7")
-		)
-		(pin "2"
-			(uuid "5fec420f-3ca2-456d-ba70-3a0cdeaa08cc")
-		)
-		(instances
-			(project "NestWireless"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NestWireless:PWR_FLAG")
 		(at 240.03 162.56 0)
 		(unit 1)
@@ -10139,111 +9970,6 @@
 			(project "NestWireless"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NestWireless:Key_Diode")
-		(at 252.73 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d956fe1")
-		(property "Reference" "D30"
-			(at 254.7366 94.0816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 254.7366 96.393 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "NestWireless:D_SOD-123_DO-35_Hybrid_DoubleSided_V2"
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Semtech"
-			(at 252.73 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG PN" "1N4148W"
-			(at 252.73 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "75v"
-			(at 252.73 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_PN" "C81598"
-			(at 252.73 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7a968cb-92d4-468c-b8fb-c4bf9a74a4e8")
-		)
-		(pin "2"
-			(uuid "d6bdf195-873a-4a3c-83b1-124f03737ed1")
-		)
-		(instances
-			(project "NestWireless"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -10885,81 +10611,6 @@
 	)
 	(symbol
 		(lib_id "NestWireless:SW_PUSH")
-		(at 224.79 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b02f175-3991-43fb-8bbe-f9fef0d98868")
-		(property "Reference" "SW29"
-			(at 224.79 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH"
-			(at 224.79 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NestWireless:Cherry_MX_DS_Hotswap_v3.5.4"
-			(at 226.06 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_PN" ""
-			(at 224.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "754def15-77e1-4c8b-ba01-5dfb83073d09")
-		)
-		(pin "2"
-			(uuid "12425906-de75-4423-972e-e988982ae664")
-		)
-		(instances
-			(project "NestWireless"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "SW29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NestWireless:SW_PUSH")
 		(at 163.83 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11547,81 +11198,6 @@
 			(project "NestWireless"
 				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NestWireless:SW_PUSH")
-		(at 245.11 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a351f4d-1ee1-411d-a12b-81e42779ec4e")
-		(property "Reference" "SW30"
-			(at 245.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH"
-			(at 245.11 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NestWireless:Cherry_MX_DS_Hotswap_v3.5.4"
-			(at 246.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_PN" ""
-			(at 245.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "639d1d56-b58d-47e0-a470-f50f24b626a6")
-		)
-		(pin "2"
-			(uuid "8f664e61-1d64-4394-abfd-5664bc1dcd37")
-		)
-		(instances
-			(project "NestWireless"
-				(path "/06057b3a-55ab-4f4e-913e-2aeec5ff3587"
-					(reference "SW30")
 					(unit 1)
 				)
 			)

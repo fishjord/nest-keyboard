@@ -1,0 +1,525 @@
+meta:
+  engine: 4.1.0
+  version: v0
+  author: Ness
+units:
+  kx: u
+  ky: u
+  px: U
+  py: U
+  cutout: 14
+  cap_w: 18
+  cap_h: 18
+  mcu_w: 18
+  mcu_h: 33
+  display_w: 18
+  display_h: 33
+
+  #  Typical clearance for an M2 through hole is 2.2mm
+  screw_hole_radius: 1.1
+  
+  jig_scaffolding_width: 6
+  jig_platform_offset: 5
+  jig_thickness: 3
+
+  fdm_keyplate_thickness: 3
+  fdm_case_thickness: 3
+
+  absurdly_large_number: 500
+
+points:
+  key:
+    tags:
+      - key
+    autobind: 15
+  zones:
+    matrix:
+      anchor.shift: [50,-100] # Fix KiCad placement
+      columns:
+        outer:
+          key:
+            splay: 4
+            column_net: C0
+        pinky.key.column_net: C1
+        ring:
+          key:
+            splay: -4
+            stagger: 10
+            column_net: C2
+        middle:
+          key:
+            stagger: 8
+            column_net: C3
+        index:
+          key:
+            stagger: -10.5
+            column_net: C4
+        inner:
+          key:
+            stagger: -3.5
+            column_net: C5
+      rows:
+        bottom:
+          padding: py
+          key:            
+            row_net: R0
+        home:
+          padding: py
+          key:            
+            row_net: R1
+        top:
+          padding: py
+          key:            
+            row_net: R2
+    thumb:
+      anchor:
+        ref: matrix_index_bottom
+        shift: [-kx/2,-1.25py]
+      columns:
+        tuck:
+          key:
+            bind: [5, 5, 0, 0]
+            column_net: C2
+        rest:
+          key:
+            splay: -15
+            stagger: -2.7
+            spread: py + 2
+            bind: [5, 5, 0, 0]
+            origin: [-0.75px, -0.5py]
+            column_net: C3
+        reach:
+          key:
+            splay: -15
+            rotate: 90
+            spread: cx + 1
+            origin: [-0.5px, -0.5py]
+            bind: [5, 5, 0, 0]
+            column_net: C4
+            tags:
+              - keycap_1.5u
+        far:
+          key:
+            spread: 21.25
+            splay: -28
+            rotate: 90
+            origin: [-9.5, -9]
+            column_net: C5
+            tags:
+              - keycap_1.5u
+      rows:
+        r0:
+          padding: py
+          key:            
+            row_net: R4
+      
+    mcu:
+      key.tags:
+        - helper
+      anchor:
+        - ref: matrix_middle_top
+          shift: [
+            kx / 2 + mcu_w / 2 + 2.1kx,
+            ky / 2 - mcu_h / 2
+          ]
+
+    display:
+      key.tags:
+        - helper
+      anchor:
+        - ref: mcu
+          shift: [0,-3.5]
+    
+    nest_screw_1:
+      key.tags:
+        - helper
+        - nest_screw
+      anchor: 
+        aggregate.parts:
+          - ref: matrix_outer_home
+          - ref: matrix_outer_top
+          - ref: matrix_pinky_home
+          - ref: matrix_pinky_top
+    nest_screw_2:
+      key.tags:
+        - helper
+        - nest_screw
+      anchor: 
+        aggregate.parts:
+          - ref: matrix_index_top
+          - ref: matrix_inner_top
+        shift: [4,15]
+    nest_screw_3:
+      key.tags:
+        - helper
+        - nest_screw
+      anchor: 
+        aggregate.parts:
+          - ref: matrix_outer_home
+          - ref: matrix_outer_bottom
+          - ref: matrix_pinky_home
+          - ref: matrix_pinky_bottom
+    nest_screw_4:
+      key.tags:
+        - helper
+        - nest_screw
+      anchor: 
+        aggregate.parts:
+          - ref: matrix_ring_bottom
+          - ref: thumb_tuck_r0
+        shift: [4.3,3]
+    nest_screw_5:
+      key.tags:
+        - helper
+        - nest_screw
+      anchor:
+        ref: thumb_reach_r0
+        shift: [9,13]
+    nest_screw_6:
+      key.tags:
+        - helper
+        - nest_screw
+      anchor:
+        ref: thumb_far_r0
+        shift: [5,14]
+
+outlines:
+  _key_cutouts:
+    - what: rectangle
+      where: /matrix|thumb/
+      size: [14, 14]
+
+  _keys:
+    - what: rectangle
+      where: /matrix/
+      size: [u, u]
+      bound: true
+    - what: rectangle
+      where: /thumb/
+      size: [u, u]
+      bound: true
+    - what: rectangle
+      where: [keycap_1.5u]
+      size: [kx * 1.5, ky]
+    - what: polygon
+      points:
+        - ref: matrix_inner_top
+          shift: [kx / 2, ky / 2 + 17]
+        - ref: matrix_ring_top
+          shift: [-kx / 2 + 3, ky / 2]
+          affect: [x]
+        - ref: matrix_outer_top
+          shift: [-9.6, ky/2]
+        - ref: matrix_outer_bottom
+          shift: [-kx / 2, -ky / 2]
+        - ref: thumb_tuck_r0
+          shift: [-kx / 2, -ky / 2 - 1]
+        - ref: thumb_rest_r0
+          shift: [-kx / 2, -ky / 2 - 2]
+        - ref: thumb_rest_r0
+          shift: [-kx / 2, -ky / 2 - 2]
+        - ref: thumb_reach_r0
+          shift: [-kx / 2 - 5, -ky / 2]
+        - ref: thumb_far_r0
+          shift: [-kx / 2 + 5, -ky / 2]
+        - ref: thumb_far_r0
+          shift: [1.5 * kx / 2, -ky / 2]
+        - ref: thumb_reach_r0
+          shift: [1.5 * kx / 2 + 3, -ky / 2 - 5]
+        - ref: matrix_inner_bottom
+          shift: [kx / 2, -ky / 2 + 2]
+        - ref: matrix_inner_top
+          shift: [kx / 2, ky / 2]
+
+  _keycaps:
+    - what: rectangle
+      where: [/matrix/, /thumb/]
+      size: [cap_w, cap_h]
+      fillet: 3
+    - what: rectangle
+      where: [keycap_1.5u]
+      size: [cap_w*1.5,cap_h]
+      fillet: 3
+      
+  _mcu:
+    - what: rectangle
+      where: [mcu]
+      size: [mcu_w,mcu_h]
+      fillet: 1
+    - what: rectangle
+      where: [mcu]
+      # USB port
+      size: [8.94,7.35]
+      fillet: 0.1
+      operation: stack
+      adjust:
+        shift: [0,mcu_h/2-7.35/2+0.7]
+
+  _display:
+    - what: rectangle
+      where: [display]
+      size: [14,36]
+      fillet: 0.5
+    - what: rectangle
+      where: [display]
+      size: [12.82,2.66]
+      operation: stack
+      fillet: 0.1
+      adjust:
+        shift: [0,-16.7]
+    - what: rectangle
+      where: [display]
+      size: [10.8,24.6]
+      operation: stack
+      adjust:
+        shift: [0,-0.75]
+
+  _mcu_cluster:
+    - what: outline
+      name: _mcu
+      operation: stack
+    - what: outline
+      name: _display
+      operation: stack
+
+  _nest_screw_heads:
+    - what: circle
+      where: [nest_screw]
+      radius: screw_hole_radius * 2
+
+  _nest_screw_holes:
+    - what: circle
+      where: [nest_screw]
+      radius: screw_hole_radius
+
+  nest:
+    - what: outline
+      name: _keys
+    - what: rectangle
+      where: [mcu]
+      size: [mcu_w,mcu_h]
+    - what: rectangle
+      where: [display]
+      size: [display_w,display_h]
+ 
+  nest_handwired:
+    - what: outline
+      name: _keys
+
+  
+  preview:
+    - what: outline
+      name: nest
+      expand: 3
+    - what: outline
+      name: _keycaps
+      operation: stack
+    - what: outline
+      name: _mcu_cluster
+      operation: stack
+    - what: outline
+      name: _nest_screw_heads
+      operation: stack
+      
+  handwired_preview:
+    - what: outline
+      name: nest_handwired
+      expand: 3
+    - what: outline
+      name: _keycaps
+      operation: stack
+    - what: outline
+      name: _nest_screw_heads
+      operation: stack
+
+  _mx_stem:
+    - what: circle
+      where: /matrix|thumb/
+      radius: 1.99
+    - what: circle
+      where: /matrix|thumb/
+      radius: 0.85
+      adjust:
+        shift: [-5.08, 0]
+    - what: circle
+      where: /matrix|thumb/
+      radius: 0.85
+      adjust:
+        shift: [5.08, 0]
+
+  _jig_border:
+    - what: outline
+      name: _keys
+      expand: 5
+    - what: outline
+      name: _keys
+      operation: stack
+
+  _jig_skeleton:
+    - what: rectangle
+      where: /home/
+      size: [jig_scaffolding_width, absurdly_large_number]
+    - what: rectangle
+      where: thumb_tuck_r0
+      size: [U, jig_scaffolding_width]
+    - what: rectangle
+      where: thumb_rest_r0
+      size: [U, jig_scaffolding_width]
+      adjust:
+        shift: [-5, 0]
+    - what: rectangle
+      where: [thumb_reach_r0, thumb_far_r0]
+      size: [absurdly_large_number, jig_scaffolding_width]
+    - what: rectangle
+      where: /matrix/
+      size: [jig_scaffolding_width, U + 5]
+    - what: outline
+      name: _keys
+      operation: intersect
+    - what: outline
+      name: _jig_border
+
+  _key_jig_support:
+    - what: rectangle
+      where: /matrix|thumb/
+      bevel: 1
+      size: [11, jig_scaffolding_width]
+    
+
+cases:
+  key_plate:
+    - what: outline
+      name: nest_handwired
+      extrude: fdm_keyplate_thickness
+    - what: outline
+      name: _key_cutouts
+      operation: subtract
+      extrude: fdm_keyplate_thickness
+    - what: outline
+      name: _nest_screw_holes
+      operation: subtract
+      extrude: fdm_keyplate_thickness
+      
+  backplate:
+    - what: outline
+      name: nest_handwired
+      extrude: fdm_case_thickness
+    - what: outline
+      name: _nest_screw_holes
+      operation: subtract
+      extrude: fdm_case_thickness
+
+  jig:
+    - what: outline
+      name: _jig_skeleton
+      extrude:  jig_thickness
+    - what: outline
+      name: _key_jig_support
+      extrude: jig_thickness + jig_platform_offset
+    - what: outline
+      name: _mx_stem
+      extrude: 4
+      shift: [0, 0, jig_platform_offset + jig_thickness]
+      
+
+pcbs:
+  nest:
+    template: kicad8
+    footprints:
+      # --- KEY SWITCHES & DIODES ---
+      keys:
+        what: ceoloide/switch_mx
+        where:
+          - /matrix_.*/
+          - /thumb_.*/
+        params:
+          from: "{{colrow}}"
+          to: "diodes_{{name}}_from"
+          reversible: true
+          solder: true
+          include_keycap: true
+      
+      diodes:
+        what: ceoloide/diode_tht_sod123
+        where:
+          - /matrix/
+          - /thumb/
+        params:
+          from: "diodes_{{name}}_from"
+          to: "{{row}}"
+          reversible: true
+          side: B
+
+      # --- MICROCONTROLLER ---
+      mcu:
+        what: ceoloide/mcu_nice_nano
+        where: [mcu]
+        params:
+          reversible: true
+          only_required_jumpers: true
+          P7: matrix_pinky_top
+          P18: matrix_ring_top
+          P19: matrix_middle_top
+          P20: matrix_index_top
+          P21: matrix_inner_top
+          P15: matrix_pinky_home
+          P14: matrix_ring_home
+          P16: matrix_middle_home
+          P10: matrix_index_home
+          P1: matrix_inner_home
+          P2: matrix_pinky_bottom
+          P3: matrix_ring_bottom
+          P4: matrix_middle_bottom
+          P5: matrix_index_bottom
+          P6: matrix_inner_bottom
+          P8: thumb_tuck
+          P9: thumb_reach
+          RST: reset_net
+          GND: GND
+          VCC: raw_battery_pos
+
+      # --- NICE!VIEW DISPLAY ---
+      display:
+        what: ceoloide/display_nice_view # Standard 5-pin nice!view pinout definition
+        where: [display]
+        params:
+          reversible: true
+          # Connects to the standard nice!view pin headers
+          VCC: raw_battery_pos
+          GND: GND
+          # Dedicated 3-wire SPI communication lines mapped to nice!nano pins
+          CS: P006   # Typical CS pin configuration mapping (change according to your firmware)
+          MOSI: P008  # MOSI data pin mapping
+          SCK: P017  # SCK clock pin mapping
+
+      # --- HARDWARE PERIPHERALS ---
+      reset_switch:
+        what: ceoloide/reset_switch_smd_side
+        where:
+          ref: matrix_inner_home
+          rotate: -90
+          shift: [1.5px, -1py]
+        params:
+          from: reset_net
+          to: GND
+          side: B
+
+      power_switch:
+        what: ceoloide/power_switch_smd_side
+        where:
+          ref: matrix_inner_home
+          rotate: 0
+          shift: [1.5px, -1.5py]
+        params:
+          from: jst_pos_net
+          to: raw_battery_pos
+          side: B
+
+      jst_battery_connector:
+        what:  ceoloide/battery_connector_jst_ph_2
+        where:
+          ref: matrix_inner_home
+          rotate: -90
+          shift: [1px, -1.5py]
+        params:
+          side: B

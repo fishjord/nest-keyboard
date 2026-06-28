@@ -19,19 +19,24 @@ units:
   screw_hole_radius: 1.1
   
   jig_scaffolding_width: 6
-  jig_platform_offset: 5
+  jig_platform_offset: 15
   jig_thickness: 3
 
   fdm_keyplate_thickness: 3
   fdm_case_thickness: 3
 
-  absurdly_large_number: 500
+  mx_switch_stem_radius: 1.99
+  mx_switch_stabilizer_radius: 0.85
+  mx_switch_stabilizer_offset: 5.08
+  
+  choc_v1_switch_stem_radius: 1.7
+  choc_v1_switch_stabilizer_radius: .95
+  choc_v1_switch_stabilizer_offset: 5.5
 
 points:
   key:
     tags:
       - key
-    autobind: 15
   zones:
     matrix:
       anchor.shift: [50,-100] # Fix KiCad placement
@@ -71,13 +76,20 @@ points:
           padding: py
           key:            
             row_net: R2
+        num:
+          padding: py
+          key:            
+            row_net: R2
+            tag:
+              - top_row
     thumb:
       anchor:
         ref: matrix_index_bottom
-        shift: [-kx/2,-1.25py]
+        shift: [-kx/2,-1.5ky]
       columns:
         tuck:
           key:
+            rotate: 5
             bind: [5, 5, 0, 0]
             column_net: C2
         rest:
@@ -136,19 +148,17 @@ points:
         - nest_screw
       anchor: 
         aggregate.parts:
-          - ref: matrix_outer_home
           - ref: matrix_outer_top
-          - ref: matrix_pinky_home
+          - ref: matrix_outer_num
           - ref: matrix_pinky_top
+          - ref: matrix_pinky_num
     nest_screw_2:
       key.tags:
         - helper
         - nest_screw
       anchor: 
-        aggregate.parts:
-          - ref: matrix_index_top
-          - ref: matrix_inner_top
-        shift: [4,15]
+        - ref: matrix_index_num
+          shift: [0, ky / 2 + 4]
     nest_screw_3:
       key.tags:
         - helper
@@ -174,73 +184,21 @@ points:
         - nest_screw
       anchor:
         ref: thumb_reach_r0
-        shift: [9,13]
+        shift: [16,16]
     nest_screw_6:
       key.tags:
         - helper
         - nest_screw
       anchor:
         ref: thumb_far_r0
-        shift: [5,14]
+        shift: [7,14.5]
 
 outlines:
-  _key_cutouts:
-    - what: rectangle
-      where: /matrix|thumb/
-      size: [14, 14]
 
-  _keys:
-    - what: rectangle
-      where: /matrix/
-      size: [u, u]
-      bound: true
-    - what: rectangle
-      where: /thumb/
-      size: [u, u]
-      bound: true
-    - what: rectangle
-      where: [keycap_1.5u]
-      size: [kx * 1.5, ky]
-    - what: polygon
-      points:
-        - ref: matrix_inner_top
-          shift: [kx / 2, ky / 2 + 17]
-        - ref: matrix_ring_top
-          shift: [-kx / 2 + 3, ky / 2]
-          affect: [x]
-        - ref: matrix_outer_top
-          shift: [-9.6, ky/2]
-        - ref: matrix_outer_bottom
-          shift: [-kx / 2, -ky / 2]
-        - ref: thumb_tuck_r0
-          shift: [-kx / 2, -ky / 2 - 1]
-        - ref: thumb_rest_r0
-          shift: [-kx / 2, -ky / 2 - 2]
-        - ref: thumb_rest_r0
-          shift: [-kx / 2, -ky / 2 - 2]
-        - ref: thumb_reach_r0
-          shift: [-kx / 2 - 5, -ky / 2]
-        - ref: thumb_far_r0
-          shift: [-kx / 2 + 5, -ky / 2]
-        - ref: thumb_far_r0
-          shift: [1.5 * kx / 2, -ky / 2]
-        - ref: thumb_reach_r0
-          shift: [1.5 * kx / 2 + 3, -ky / 2 - 5]
-        - ref: matrix_inner_bottom
-          shift: [kx / 2, -ky / 2 + 2]
-        - ref: matrix_inner_top
-          shift: [kx / 2, ky / 2]
+  #####################
+  # Hardware outlines #
+  #####################
 
-  _keycaps:
-    - what: rectangle
-      where: [/matrix/, /thumb/]
-      size: [cap_w, cap_h]
-      fillet: 3
-    - what: rectangle
-      where: [keycap_1.5u]
-      size: [cap_w*1.5,cap_h]
-      fillet: 3
-      
   _mcu:
     - what: rectangle
       where: [mcu]
@@ -254,7 +212,19 @@ outlines:
       operation: stack
       adjust:
         shift: [0,mcu_h/2-7.35/2+0.7]
-
+  _mcu_poly:
+    - what: polygon
+      points:
+        - ref: matrix_inner_num
+          shift: [kx / 2, ky / 2]
+        - ref: mcu
+          shift: [mcu_w / 2, 0]
+          affect: [x]
+        - ref: thumb_reach_r0
+          shift: [0, ky / 2 -5]
+          affect: [y]
+        - ref: matrix_inner_bottom
+          shift: [kx / 2, -ky / 2]
   _display:
     - what: rectangle
       where: [display]
@@ -273,44 +243,174 @@ outlines:
       operation: stack
       adjust:
         shift: [0,-0.75]
-
   _mcu_cluster:
-    - what: outline
+    mcu:
+      what: outline
       name: _mcu
       operation: stack
-    - what: outline
+    display:
+      what: outline
       name: _display
       operation: stack
 
-  _nest_screw_heads:
+  _screw_heads:
     - what: circle
       where: [nest_screw]
       radius: screw_hole_radius * 2
-
-  _nest_screw_holes:
+  _screw_holes:
     - what: circle
       where: [nest_screw]
       radius: screw_hole_radius
 
-  nest:
-    - what: outline
-      name: _keys
-    - what: rectangle
-      where: [mcu]
-      size: [mcu_w,mcu_h]
-    - what: rectangle
-      where: [display]
-      size: [display_w,display_h]
- 
-  nest_handwired:
-    - what: outline
-      name: _keys
+  ################
+  # Key outlines #
+  ################
 
+  _keys_poly:
+    - what: polygon
+      points:
+        - ref: matrix_inner_num
+          shift: [kx / 2, ky / 2]
+        - ref: matrix_middle_num
+          shift: [kx / 2, ky / 2]
+        - ref: matrix_middle_num
+          shift: [-kx / 2, ky / 2]
+        - ref: matrix_outer_num
+          shift: [-9.6, ky/2]
+        - ref: matrix_outer_bottom
+          shift: [-kx / 2, -ky / 2]
+        - ref: matrix_pinky_bottom
+          shift: [kx / 2, -ky / 2]
+        - ref: thumb_tuck_r0
+          shift: [-kx / 2, -ky / 2]
+        - ref: thumb_tuck_r0
+          shift: [kx / 2, -ky / 2 - 7.5]
+        - ref: thumb_rest_r0
+          shift: [-kx / 2, -ky / 2 - 2.75]
+        - ref: thumb_rest_r0
+          shift: [kx / 2, -ky / 2 - 5]
+        - ref: thumb_reach_r0
+          shift: [-kx / 2 - 6, -ky / 2 ]
+        - ref: thumb_far_r0
+          shift: [-kx / 2 - 5, -ky / 2]
+        - ref: thumb_far_r0
+          shift: [kx / 2 + 5, -ky / 2]
+        - ref: thumb_far_r0
+          shift: [kx / 2 + 5, ky / 2]
+        - ref: thumb_reach_r0
+          shift: [kx / 2 + 5, -ky / 2]
+        - ref: matrix_inner_bottom
+          shift: [kx / 2, -ky / 2 + 2]
+        - ref: matrix_inner_num
+          shift: [kx / 2, ky / 2]
+  _keys:
+    - what: rectangle
+      where: /matrix/
+      size: [u, u]
+    - what: rectangle
+      where: [keycap_1.5u]
+      size: [kx * 1.5, ky]
+    - what: outline
+      name: _keys_poly
+
+  ##################
+  # Plate outlines #
+  ##################
+
+  _backplate_outline:
+    outline:
+      what: outline
+      name: _keys
+    mcu:
+      what: outline
+      name: _mcu_poly 
+  backplate:
+    outline:
+      what: outline
+      name: _backplate_outline
+      fillet: 2
+      expand: 3
+
+  _key_cutouts:
+    - what: rectangle
+      where: /matrix|thumb/
+      size: [14, 14]
+  keyplate_no_cutouts:
+    keyplate:
+      what: outline
+      name: _keys
+      fillet: 2
+      expand: 3
+  keyplate:
+    outline:
+      what: outline
+      name: keyplate_no_cutouts
+    key_cutouts:
+      what: outline
+      name: _key_cutouts
+      operation: stack
+
+  _mx_retention_cutouts:
+    - what: rectangle
+      where: /matrix|thumb/
+      size: [14, 14]
+    - what: rectangle
+      where: /matrix|thumb/
+      size: [5, 16]
+  mx_support_plate:
+    outline:
+      what: outline
+      name: keyplate_no_cutouts
+    key_cutouts:
+      what: outline
+      name: _mx_retention_cutouts
+      operation: stack
   
+  _choc_v1_retention_cutouts:
+    key_cutout:
+      what: rectangle
+      where: /matrix|thumb/
+      size: [14, 14]
+    top_retention_clip:
+      what: rectangle
+      where: /matrix|thumb/
+      size: [16, 3]
+      adjust:
+        shift: [0, 3.5]
+    bottom_retention_clip:
+      what: rectangle
+      where: /matrix|thumb/
+      size: [16, 3]
+      adjust:
+        shift: [0, -3.5]
+  choc_v1_support_plate:
+    outline:
+      what: outline
+      name: keyplate_no_cutouts
+    key_cutouts:
+      what: outline
+      name: _choc_v1_retention_cutouts
+      operation: stack
+
+  ###########
+  # Preview #
+  ###########
+
+  _keycaps:
+    - what: rectangle
+      where: [/matrix/, /thumb/]
+      size: [cap_w, cap_h]
+      fillet: 3
+    - what: rectangle
+      where: [keycap_1.5u]
+      size: [cap_w*1.5,cap_h]
+      fillet: 3
   preview:
     - what: outline
-      name: nest
-      expand: 3
+      name: backplate
+    - what: outline
+      name: keyplate_no_cutouts
+      operation: stack
     - what: outline
       name: _keycaps
       operation: stack
@@ -318,110 +418,87 @@ outlines:
       name: _mcu_cluster
       operation: stack
     - what: outline
-      name: _nest_screw_heads
-      operation: stack
-      
-  handwired_preview:
-    - what: outline
-      name: nest_handwired
-      expand: 3
-    - what: outline
-      name: _keycaps
-      operation: stack
-    - what: outline
-      name: _nest_screw_heads
+      name: _screw_heads
       operation: stack
 
-  _mx_stem:
-    - what: circle
-      where: /matrix|thumb/
-      radius: 1.99
-    - what: circle
-      where: /matrix|thumb/
-      radius: 0.85
-      adjust:
-        shift: [-5.08, 0]
-    - what: circle
-      where: /matrix|thumb/
-      radius: 0.85
-      adjust:
-        shift: [5.08, 0]
+  #############################################
+  # Soldering jig for single key PCB outlines #
+  #############################################
 
-  _jig_border:
+  _mx_key_jig:
+    center_post:
+      what: circle
+      where: /matrix|thumb/
+      radius: mx_switch_stem_radius - .025
+    stab_left:
+      what: circle
+      where: /matrix|thumb/
+      radius: mx_switch_stabilizer_radius - .025
+      adjust:
+        shift: [-mx_switch_stabilizer_offset, 0]
+
+  _mx_key_jig_support:
+    platform:
+      what: rectangle
+      where: /matrix|thumb/
+      size: [
+        mx_switch_stabilizer_offset
+          + mx_switch_stabilizer_radius * 2
+          + mx_switch_stem_radius,
+        mx_switch_stem_radius * 2
+      ]
+      corner: mx_switch_stabilizer_radius
+      adjust:
+        shift: [-(mx_switch_stabilizer_offset - mx_switch_stabilizer_radius) / 2, 0]
+
+  _choc_v1_key_jig:
+    center_post:
+      what: circle
+      where: /matrix|thumb/
+      radius: choc_v1_switch_stem_radius - .025
+    left_stab:
+      what: circle
+      where: /matrix|thumb/
+      radius: choc_v1_switch_stabilizer_radius - .025
+      adjust:
+        shift: [-choc_v1_switch_stabilizer_offset, 0]
+
+  _choc_v1_key_jig_support:
+    platform:
+      what: rectangle
+      where: /matrix|thumb/
+      size: [
+        choc_v1_switch_stabilizer_offset
+          + choc_v1_switch_stem_radius * 2
+          + choc_v1_switch_stabilizer_radius
+          - 1,
+        choc_v1_switch_stem_radius * 2
+      ]
+      corner: choc_v1_switch_stabilizer_radius
+      adjust:
+        shift: [-(choc_v1_switch_stabilizer_offset - choc_v1_switch_stabilizer_radius) / 2, 0]
+
+  _preview_mx_jig:
     - what: outline
       name: _keys
-      expand: 5
+      operation: stack
     - what: outline
-      name: _keys
+      name: _mx_key_jig
+      operation: stack
+    - what: outline
+      name: _mx_key_jig_support
       operation: stack
 
-  _jig_skeleton:
-    - what: rectangle
-      where: /home/
-      size: [jig_scaffolding_width, absurdly_large_number]
-    - what: rectangle
-      where: thumb_tuck_r0
-      size: [U, jig_scaffolding_width]
-    - what: rectangle
-      where: thumb_rest_r0
-      size: [U, jig_scaffolding_width]
-      adjust:
-        shift: [-5, 0]
-    - what: rectangle
-      where: [thumb_reach_r0, thumb_far_r0]
-      size: [absurdly_large_number, jig_scaffolding_width]
-    - what: rectangle
-      where: /matrix/
-      size: [jig_scaffolding_width, U + 5]
+  _preview_choc_v1_jig:
     - what: outline
       name: _keys
-      operation: intersect
     - what: outline
-      name: _jig_border
-
-  _key_jig_support:
-    - what: rectangle
-      where: /matrix|thumb/
-      bevel: 1
-      size: [11, jig_scaffolding_width]
-    
-
-cases:
-  key_plate:
+      name: _choc_v1_key_jig
+      operation: stack
     - what: outline
-      name: nest_handwired
-      extrude: fdm_keyplate_thickness
-    - what: outline
-      name: _key_cutouts
-      operation: subtract
-      extrude: fdm_keyplate_thickness
-    - what: outline
-      name: _nest_screw_holes
-      operation: subtract
-      extrude: fdm_keyplate_thickness
+      name: _choc_v1_key_jig_support
+      operation: stack
       
-  backplate:
-    - what: outline
-      name: nest_handwired
-      extrude: fdm_case_thickness
-    - what: outline
-      name: _nest_screw_holes
-      operation: subtract
-      extrude: fdm_case_thickness
-
-  jig:
-    - what: outline
-      name: _jig_skeleton
-      extrude:  jig_thickness
-    - what: outline
-      name: _key_jig_support
-      extrude: jig_thickness + jig_platform_offset
-    - what: outline
-      name: _mx_stem
-      extrude: 4
-      shift: [0, 0, jig_platform_offset + jig_thickness]
-      
-
 pcbs:
   nest:
     template: kicad8

@@ -33,6 +33,8 @@ units:
   choc_v1_switch_stabilizer_radius: .95
   choc_v1_switch_stabilizer_offset: 5.5
 
+  home_to_top: 2
+
 points:
   key:
     tags:
@@ -79,9 +81,8 @@ points:
         num:
           padding: py
           key:            
-            row_net: R2
-            tag:
-              - top_row
+            row_net: R3
+          $skip: false
     thumb:
       anchor:
         ref: matrix_index_bottom
@@ -129,10 +130,10 @@ points:
       key.tags:
         - helper
       anchor:
-        - ref: matrix_middle_top
+        - ref: matrix_inner_home
           shift: [
-            kx / 2 + mcu_w / 2 + 2.1kx,
-            ky / 2 - mcu_h / 2
+            kx / 2 + mcu_w / 2 + 6,
+            home_to_top * U - ky / 2 + 5
           ]
 
     display:
@@ -148,17 +149,16 @@ points:
         - nest_screw
       anchor: 
         aggregate.parts:
-          - ref: matrix_outer_top
-          - ref: matrix_outer_num
-          - ref: matrix_pinky_top
-          - ref: matrix_pinky_num
+          - ref: matrix_outer_home
+          - ref: matrix_pinky_home
+        shift: [0, home_to_top * U - ky / 2]
     nest_screw_2:
       key.tags:
         - helper
         - nest_screw
       anchor: 
-        - ref: matrix_index_num
-          shift: [0, ky / 2 + 4]
+        - ref: matrix_index_home
+          shift: [0, home_to_top * U + ky / 2 + 4]
     nest_screw_3:
       key.tags:
         - helper
@@ -215,8 +215,8 @@ outlines:
   _mcu_poly:
     - what: polygon
       points:
-        - ref: matrix_inner_num
-          shift: [kx / 2, ky / 2]
+        - ref: matrix_inner_home
+          shift: [kx / 2, home_to_top * U + ky / 2]
         - ref: mcu
           shift: [mcu_w / 2, 0]
           affect: [x]
@@ -269,14 +269,14 @@ outlines:
   _keys_poly:
     - what: polygon
       points:
-        - ref: matrix_inner_num
-          shift: [kx / 2, ky / 2]
-        - ref: matrix_middle_num
-          shift: [kx / 2, ky / 2]
-        - ref: matrix_middle_num
-          shift: [-kx / 2, ky / 2]
-        - ref: matrix_outer_num
-          shift: [-9.6, ky/2]
+        - ref: matrix_inner_home
+          shift: [kx / 2, home_to_top * U + ky / 2]
+        - ref: matrix_middle_home
+          shift: [kx / 2, home_to_top * U + ky / 2]
+        - ref: matrix_middle_home
+          shift: [-kx / 2, home_to_top * U + ky / 2]
+        - ref: matrix_outer_home
+          shift: [-9.6, home_to_top * U + ky/2]
         - ref: matrix_outer_bottom
           shift: [-kx / 2, -ky / 2]
         - ref: matrix_pinky_bottom
@@ -301,8 +301,8 @@ outlines:
           shift: [kx / 2 + 5, -ky / 2]
         - ref: matrix_inner_bottom
           shift: [kx / 2, -ky / 2 + 2]
-        - ref: matrix_inner_num
-          shift: [kx / 2, ky / 2]
+        - ref: matrix_inner_home
+          shift: [kx / 2, home_to_top * U + ky / 2]
   _keys:
     - what: rectangle
       where: /matrix/
